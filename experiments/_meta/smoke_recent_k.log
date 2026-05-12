@@ -33,3 +33,129 @@ Using driver workarounds:
     nv-compressed-block-size-in-bits
 [16:49:33:692558]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
 [16:49:35:396248]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:51:00:020609]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00869-MHPLjHsuG27/MHPLjHsuG27.basis.scn` nor constructed filename : `./dataset/hm3d/val/00869-MHPLjHsuG27/info_semantic.json` exist on disk.
+[16:51:01:278619]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:52:02:921993]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.scn` nor constructed filename : `./dataset/hm3d/val/00844-q5QZSEeHe5g/info_semantic.json` exist on disk.
+[16:52:06:969474]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:53:29:102597]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[16:53:33:724991]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:55:37:645551]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[16:55:39:170401]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:57:43:602850]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[16:57:45:136641]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[16:59:09:227048]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[16:59:14:058243]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:01:18:639820]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00839-zt1RVoi7PcG/zt1RVoi7PcG.basis.scn` nor constructed filename : `./dataset/hm3d/val/00839-zt1RVoi7PcG/info_semantic.json` exist on disk.
+[17:01:21:578027]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:02:43:804955]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00802-wcojb4TFT35/wcojb4TFT35.basis.scn` nor constructed filename : `./dataset/hm3d/val/00802-wcojb4TFT35/info_semantic.json` exist on disk.
+[17:02:47:284072]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:03:48:911900]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.scn` nor constructed filename : `./dataset/hm3d/val/00800-TEEsavR23oF/info_semantic.json` exist on disk.
+[17:03:51:050236]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+[1/10] sr=0 spl=0.000 steps=140 t=86.2s mem=10778MiB
+5
+['']
+10
+['']
+15
+['']
+[2/10] sr=0 spl=0.000 steps=128 t=62.7s mem=11318MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+[3/10] sr=0 spl=0.000 steps=126 t=85.9s mem=13010MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+25
+['']
+30
+['']
+[4/10] sr=0 spl=0.000 steps=135 t=128.2s mem=14994MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+25
+['']
+30
+['']
+[5/10] sr=0 spl=0.000 steps=144 t=125.6s mem=15667MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+[6/10] sr=0 spl=0.000 steps=125 t=85.3s mem=16343MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+25
+['']
+30
+['']
+[7/10] sr=0 spl=0.000 steps=131 t=129.0s mem=18319MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+[8/10] sr=1 spl=0.474 steps=129 t=84.7s mem=19613MiB
+5
+['']
+10
+['']
+15
+['']
+[9/10] sr=1 spl=0.079 steps=175 t=64.7s mem=21061MiB
+5
+['']
+10
+['']
+15
+['']
+20
+['']
+25
+['']
+30
+['']
+[10/10] sr=0 spl=0.000 steps=150 t=122.1s mem=21978MiB
+{
+  "avg_sr": 0.2,
+  "avg_spl": 0.05521670218040749,
+  "avg_steps": 138.3,
+  "avg_steps_per_sec": 1.5270840364725937
+}

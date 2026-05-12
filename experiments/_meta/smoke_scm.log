@@ -1,0 +1,161 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.105.08
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[17:22:01:570219]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[17:22:03:217694]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:23:26:061615]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00869-MHPLjHsuG27/MHPLjHsuG27.basis.scn` nor constructed filename : `./dataset/hm3d/val/00869-MHPLjHsuG27/info_semantic.json` exist on disk.
+[17:23:27:287182]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:24:27:027764]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.scn` nor constructed filename : `./dataset/hm3d/val/00844-q5QZSEeHe5g/info_semantic.json` exist on disk.
+[17:24:30:957949]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:25:50:547192]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[17:25:55:107791]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:27:53:411343]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[17:27:54:947847]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:29:52:187950]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[17:29:53:665257]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:31:12:186013]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[17:31:17:086267]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:33:15:138003]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00839-zt1RVoi7PcG/zt1RVoi7PcG.basis.scn` nor constructed filename : `./dataset/hm3d/val/00839-zt1RVoi7PcG/info_semantic.json` exist on disk.
+[17:33:17:997528]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:34:35:013064]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00802-wcojb4TFT35/wcojb4TFT35.basis.scn` nor constructed filename : `./dataset/hm3d/val/00802-wcojb4TFT35/info_semantic.json` exist on disk.
+[17:34:38:377380]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[17:35:37:389568]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.scn` nor constructed filename : `./dataset/hm3d/val/00800-TEEsavR23oF/info_semantic.json` exist on disk.
+[17:35:39:621364]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[1/10] sr=0 spl=0.000 steps=140 t=84.4s mem=10508MiB
+5
+['']
+10
+['']
+12
+['']
+[2/10] sr=0 spl=0.000 steps=128 t=60.7s mem=11048MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[3/10] sr=0 spl=0.000 steps=126 t=83.2s mem=12740MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+14
+['']
+[4/10] sr=0 spl=0.000 steps=135 t=122.5s mem=15120MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+15
+['']
+[5/10] sr=0 spl=0.000 steps=144 t=118.5s mem=16241MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[6/10] sr=0 spl=0.000 steps=125 t=79.6s mem=16917MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+15
+['']
+[7/10] sr=0 spl=0.000 steps=131 t=122.5s mem=18893MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[8/10] sr=1 spl=0.474 steps=129 t=79.5s mem=20187MiB
+5
+['']
+10
+['']
+12
+['']
+[9/10] sr=1 spl=0.079 steps=175 t=61.9s mem=21635MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+14
+['']
+[10/10] sr=0 spl=0.000 steps=150 t=118.3s mem=22552MiB
+{
+  "avg_sr": 0.2,
+  "avg_spl": 0.05521670218040749,
+  "avg_steps": 138.3,
+  "avg_steps_per_sec": 1.595684278563916
+}

@@ -1,0 +1,641 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.34it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.105.08
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[20:25:56:190796]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[20:25:57:909001]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:27:17:851737]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00869-MHPLjHsuG27/MHPLjHsuG27.basis.scn` nor constructed filename : `./dataset/hm3d/val/00869-MHPLjHsuG27/info_semantic.json` exist on disk.
+[20:27:19:012300]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:28:17:326225]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.scn` nor constructed filename : `./dataset/hm3d/val/00844-q5QZSEeHe5g/info_semantic.json` exist on disk.
+[20:28:21:119838]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:29:37:534140]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[20:29:42:040582]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:31:36:431707]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[20:31:37:888126]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:33:30:893024]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[20:33:32:425197]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:34:50:251962]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[20:34:54:991726]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:36:50:522428]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00839-zt1RVoi7PcG/zt1RVoi7PcG.basis.scn` nor constructed filename : `./dataset/hm3d/val/00839-zt1RVoi7PcG/info_semantic.json` exist on disk.
+[20:36:53:533284]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:38:09:490414]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00802-wcojb4TFT35/wcojb4TFT35.basis.scn` nor constructed filename : `./dataset/hm3d/val/00802-wcojb4TFT35/info_semantic.json` exist on disk.
+[20:38:12:894598]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:39:12:103488]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.scn` nor constructed filename : `./dataset/hm3d/val/00800-TEEsavR23oF/info_semantic.json` exist on disk.
+[20:39:14:287842]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:41:10:200535]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[20:41:11:850567]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:42:47:924454]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[20:42:49:618139]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:44:26:350055]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis.scn` nor constructed filename : `./dataset/hm3d/val/00813-svBbv1Pavdk/info_semantic.json` exist on disk.
+[20:44:28:563807]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:45:46:687480]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00876-mv2HUxq3B53/mv2HUxq3B53.basis.scn` nor constructed filename : `./dataset/hm3d/val/00876-mv2HUxq3B53/info_semantic.json` exist on disk.
+[20:45:50:719276]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:47:07:380348]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.scn` nor constructed filename : `./dataset/hm3d/val/00814-p53SfW6mjZe/info_semantic.json` exist on disk.
+[20:47:12:680405]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:48:35:468900]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00835-q3zU7Yy5E5s/q3zU7Yy5E5s.basis.scn` nor constructed filename : `./dataset/hm3d/val/00835-q3zU7Yy5E5s/info_semantic.json` exist on disk.
+[20:48:37:464681]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:50:01:284354]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00823-7MXmsvcQjpJ/info_semantic.json` exist on disk.
+[20:50:08:277519]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:51:50:163460]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00848-ziup5kvtCCR/ziup5kvtCCR.basis.scn` nor constructed filename : `./dataset/hm3d/val/00848-ziup5kvtCCR/info_semantic.json` exist on disk.
+[20:51:52:691818]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:53:30:771961]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00876-mv2HUxq3B53/mv2HUxq3B53.basis.scn` nor constructed filename : `./dataset/hm3d/val/00876-mv2HUxq3B53/info_semantic.json` exist on disk.
+[20:53:35:704191]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:55:13:573015]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.scn` nor constructed filename : `./dataset/hm3d/val/00843-DYehNKdT76V/info_semantic.json` exist on disk.
+[20:55:16:155855]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:56:37:530419]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.scn` nor constructed filename : `./dataset/hm3d/val/00803-k1cupFYWXJ6/info_semantic.json` exist on disk.
+[20:56:44:221845]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:58:23:284139]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00839-zt1RVoi7PcG/zt1RVoi7PcG.basis.scn` nor constructed filename : `./dataset/hm3d/val/00839-zt1RVoi7PcG/info_semantic.json` exist on disk.
+[20:58:27:598130]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[20:59:47:518774]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.scn` nor constructed filename : `./dataset/hm3d/val/00800-TEEsavR23oF/info_semantic.json` exist on disk.
+[20:59:50:755191]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:00:54:520583]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.basis.scn` nor constructed filename : `./dataset/hm3d/val/00861-GLAQ4DNUx5U/info_semantic.json` exist on disk.
+[21:00:58:897048]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:02:20:447900]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00862-LT9Jq6dN3Ea/LT9Jq6dN3Ea.basis.scn` nor constructed filename : `./dataset/hm3d/val/00862-LT9Jq6dN3Ea/info_semantic.json` exist on disk.
+[21:02:27:829263]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:03:46:601430]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.scn` nor constructed filename : `./dataset/hm3d/val/00808-y9hTuugGdiq/info_semantic.json` exist on disk.
+[21:03:52:019194]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:05:13:094943]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00877-4ok3usBNeis/4ok3usBNeis.basis.scn` nor constructed filename : `./dataset/hm3d/val/00877-4ok3usBNeis/info_semantic.json` exist on disk.
+[21:05:15:302668]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:06:56:298051]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.scn` nor constructed filename : `./dataset/hm3d/val/00844-q5QZSEeHe5g/info_semantic.json` exist on disk.
+[21:07:02:106495]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:08:01:211392]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[21:08:03:702519]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:09:24:123581]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00827-BAbdmeyTvMZ/BAbdmeyTvMZ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00827-BAbdmeyTvMZ/info_semantic.json` exist on disk.
+[21:09:26:740264]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:10:47:593482]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00891-cvZr5TUy5C5/cvZr5TUy5C5.basis.scn` nor constructed filename : `./dataset/hm3d/val/00891-cvZr5TUy5C5/info_semantic.json` exist on disk.
+[21:10:54:394867]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:12:36:423307]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00829-QaLdnwvtxbs/QaLdnwvtxbs.basis.scn` nor constructed filename : `./dataset/hm3d/val/00829-QaLdnwvtxbs/info_semantic.json` exist on disk.
+[21:12:38:194235]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:14:16:628455]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00802-wcojb4TFT35/wcojb4TFT35.basis.scn` nor constructed filename : `./dataset/hm3d/val/00802-wcojb4TFT35/info_semantic.json` exist on disk.
+[21:14:21:741688]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:15:44:140852]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00832-qyAac8rV8Zk/qyAac8rV8Zk.basis.scn` nor constructed filename : `./dataset/hm3d/val/00832-qyAac8rV8Zk/info_semantic.json` exist on disk.
+[21:15:46:948298]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:17:30:383392]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.scn` nor constructed filename : `./dataset/hm3d/val/00814-p53SfW6mjZe/info_semantic.json` exist on disk.
+[21:17:37:176236]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:19:00:461918]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00849-a8BtkwhxdRV/a8BtkwhxdRV.basis.scn` nor constructed filename : `./dataset/hm3d/val/00849-a8BtkwhxdRV/info_semantic.json` exist on disk.
+[21:19:04:248316]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:20:47:105808]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00853-5cdEh9F2hJL/5cdEh9F2hJL.basis.scn` nor constructed filename : `./dataset/hm3d/val/00853-5cdEh9F2hJL/info_semantic.json` exist on disk.
+[21:20:50:114904]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:22:50:039482]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00821-eF36g7L6Z9M/eF36g7L6Z9M.basis.scn` nor constructed filename : `./dataset/hm3d/val/00821-eF36g7L6Z9M/info_semantic.json` exist on disk.
+[21:22:57:921340]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:24:42:265524]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[21:24:44:622530]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:26:27:585476]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.scn` nor constructed filename : `./dataset/hm3d/val/00808-y9hTuugGdiq/info_semantic.json` exist on disk.
+[21:26:33:035299]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:28:14:451264]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/Dd4bFSTQ8gi.basis.scn` nor constructed filename : `./dataset/hm3d/val/00824-Dd4bFSTQ8gi/info_semantic.json` exist on disk.
+[21:28:17:039064]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:29:40:083646]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00810-CrMo8WxCyVb/CrMo8WxCyVb.basis.scn` nor constructed filename : `./dataset/hm3d/val/00810-CrMo8WxCyVb/info_semantic.json` exist on disk.
+[21:29:43:790450]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:31:08:705843]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00890-6s7QHgap2fW/6s7QHgap2fW.basis.scn` nor constructed filename : `./dataset/hm3d/val/00890-6s7QHgap2fW/info_semantic.json` exist on disk.
+[21:31:11:619247]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:32:59:146487]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.scn` nor constructed filename : `./dataset/hm3d/val/00814-p53SfW6mjZe/info_semantic.json` exist on disk.
+[21:33:06:049707]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:35:10:567759]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00835-q3zU7Yy5E5s/q3zU7Yy5E5s.basis.scn` nor constructed filename : `./dataset/hm3d/val/00835-q3zU7Yy5E5s/info_semantic.json` exist on disk.
+[21:35:12:814486]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:36:35:700873]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00821-eF36g7L6Z9M/eF36g7L6Z9M.basis.scn` nor constructed filename : `./dataset/hm3d/val/00821-eF36g7L6Z9M/info_semantic.json` exist on disk.
+[21:36:43:736768]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:37:51:651658]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00815-h1zeeAwLh9Z/h1zeeAwLh9Z.basis.scn` nor constructed filename : `./dataset/hm3d/val/00815-h1zeeAwLh9Z/info_semantic.json` exist on disk.
+[21:37:55:606160]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:39:20:504905]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00827-BAbdmeyTvMZ/BAbdmeyTvMZ.basis.scn` nor constructed filename : `./dataset/hm3d/val/00827-BAbdmeyTvMZ/info_semantic.json` exist on disk.
+[21:39:23:208219]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:41:08:490458]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.scn` nor constructed filename : `./dataset/hm3d/val/00873-bxsVRursffK/info_semantic.json` exist on disk.
+[21:41:10:893084]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[21:43:16:314990]:[Warning]:[Assets] ResourceManager.cpp(353)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SceneInstanceAttributes-provided name : `./dataset/hm3d/val/00831-yr17PDCnDDW/yr17PDCnDDW.basis.scn` nor constructed filename : `./dataset/hm3d/val/00831-yr17PDCnDDW/info_semantic.json` exist on disk.
+[21:43:23:246864]:[Warning]:[Sim] Simulator.cpp(508)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[1/50] sr=0 spl=0.000 steps=140 t=81.5s mem=10508MiB
+5
+['']
+10
+['']
+12
+['']
+[2/50] sr=0 spl=0.000 steps=128 t=59.3s mem=11048MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[3/50] sr=0 spl=0.000 steps=126 t=80.0s mem=12740MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+14
+['']
+[4/50] sr=0 spl=0.000 steps=135 t=118.6s mem=15120MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+15
+['']
+[5/50] sr=0 spl=0.000 steps=144 t=114.1s mem=16241MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[6/50] sr=0 spl=0.000 steps=125 t=79.0s mem=16917MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+15
+['']
+[7/50] sr=0 spl=0.000 steps=131 t=119.8s mem=18893MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[8/50] sr=1 spl=0.474 steps=129 t=78.5s mem=20187MiB
+5
+['']
+10
+['']
+12
+['']
+[9/50] sr=1 spl=0.079 steps=175 t=62.1s mem=21635MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+14
+['']
+[10/50] sr=0 spl=0.000 steps=150 t=117.6s mem=22552MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[11/50] sr=0 spl=0.000 steps=155 t=97.2s mem=23270MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[12/50] sr=1 spl=0.177 steps=129 t=97.8s mem=23988MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[13/50] sr=0 spl=0.000 steps=134 t=79.8s mem=24078MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[14/50] sr=0 spl=0.000 steps=156 t=80.1s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[15/50] sr=0 spl=0.000 steps=174 t=87.4s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[16/50] sr=0 spl=0.000 steps=144 t=85.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[17/50] sr=1 spl=0.108 steps=121 t=108.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+[18/50] sr=1 spl=0.321 steps=139 t=99.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[19/50] sr=0 spl=0.000 steps=125 t=102.0s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[20/50] sr=0 spl=0.000 steps=133 t=83.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[21/50] sr=1 spl=0.121 steps=144 t=104.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[22/50] sr=0 spl=0.000 steps=129 t=83.4s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+[23/50] sr=0 spl=0.000 steps=145 t=66.1s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[24/50] sr=0 spl=0.000 steps=125 t=85.1s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[25/50] sr=0 spl=0.000 steps=137 t=85.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+12
+['']
+[26/50] sr=0 spl=0.000 steps=129 t=85.5s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[27/50] sr=0 spl=0.000 steps=161 t=102.3s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+[28/50] sr=1 spl=0.225 steps=61 t=63.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[29/50] sr=0 spl=0.000 steps=128 t=81.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[30/50] sr=0 spl=0.000 steps=128 t=82.3s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+12
+['']
+13
+['']
+[31/50] sr=0 spl=0.000 steps=135 t=107.8s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+[32/50] sr=0 spl=0.000 steps=131 t=99.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[33/50] sr=0 spl=0.000 steps=141 t=86.4s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[34/50] sr=1 spl=0.538 steps=156 t=105.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[35/50] sr=0 spl=0.000 steps=145 t=88.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+[36/50] sr=0 spl=0.000 steps=142 t=105.3s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+14
+['']
+[37/50] sr=0 spl=0.000 steps=143 t=121.5s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[38/50] sr=0 spl=0.000 steps=136 t=111.0s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[39/50] sr=0 spl=0.000 steps=126 t=104.1s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+13
+['']
+[40/50] sr=0 spl=0.000 steps=132 t=105.6s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[41/50] sr=0 spl=0.000 steps=120 t=84.1s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[42/50] sr=0 spl=0.000 steps=129 t=87.3s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[43/50] sr=0 spl=0.000 steps=122 t=108.9s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+15
+['']
+[44/50] sr=0 spl=0.000 steps=143 t=129.8s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[45/50] sr=0 spl=0.000 steps=88 t=83.5s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+[46/50] sr=0 spl=0.000 steps=158 t=74.5s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+[47/50] sr=1 spl=0.577 steps=130 t=87.4s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[48/50] sr=0 spl=0.000 steps=140 t=106.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+12
+['']
+13
+['']
+14
+['']
+[49/50] sr=0 spl=0.000 steps=140 t=126.2s mem=24081MiB
+5
+['']
+10
+['']
+12
+['']
+13
+['']
+14
+['']
+[50/50] sr=0 spl=0.000 steps=135 t=111.2s mem=24081MiB
+{
+  "avg_sr": 0.18,
+  "avg_spl": 0.052383915222043914,
+  "avg_steps": 135.44,
+  "avg_steps_per_sec": 1.4824867524472307
+}

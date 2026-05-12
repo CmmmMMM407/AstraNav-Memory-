@@ -1,1 +1,50 @@
 episode_id,scene_id,goal,reason,step
+2644,00824-Dd4bFSTQ8gi,flowerpot,not_reached_goal,140
+1237,00869-MHPLjHsuG27,dishwasher,not_reached_goal,128
+6989,00844-q5QZSEeHe5g,exercise bike,not_reached_goal,126
+3693,00823-7MXmsvcQjpJ,guitar,not_reached_goal,135
+458,00873-bxsVRursffK,hanging clothes,not_reached_goal,144
+5908,00873-bxsVRursffK,refrigerator,not_reached_goal,125
+3983,00823-7MXmsvcQjpJ,guitar,not_reached_goal,131
+4175,00800-TEEsavR23oF,pillow,not_reached_goal,150
+2644,00824-Dd4bFSTQ8gi,flowerpot,not_reached_goal,140
+1237,00869-MHPLjHsuG27,dishwasher,not_reached_goal,128
+6989,00844-q5QZSEeHe5g,exercise bike,not_reached_goal,126
+3693,00823-7MXmsvcQjpJ,guitar,not_reached_goal,135
+458,00873-bxsVRursffK,hanging clothes,not_reached_goal,144
+5908,00873-bxsVRursffK,refrigerator,not_reached_goal,125
+3983,00823-7MXmsvcQjpJ,guitar,not_reached_goal,131
+4175,00800-TEEsavR23oF,pillow,not_reached_goal,150
+1054,00824-Dd4bFSTQ8gi,pillow,not_reached_goal,155
+2188,00813-svBbv1Pavdk,flower vase,not_reached_goal,134
+4548,00876-mv2HUxq3B53,shower glass,not_reached_goal,156
+435,00814-p53SfW6mjZe,carpet,not_reached_goal,174
+1031,00835-q3zU7Yy5E5s,pillow,not_reached_goal,144
+4029,00876-mv2HUxq3B53,flower vase,not_reached_goal,125
+568,00843-DYehNKdT76V,mirror,not_reached_goal,133
+270,00839-zt1RVoi7PcG,pillow,not_reached_goal,129
+2750,00800-TEEsavR23oF,microwave,not_reached_goal,145
+2119,00861-GLAQ4DNUx5U,mirror,not_reached_goal,125
+3012,00862-LT9Jq6dN3Ea,stair,not_reached_goal,137
+6971,00808-y9hTuugGdiq,rug,not_reached_goal,129
+5583,00877-4ok3usBNeis,dishwasher,not_reached_goal,161
+4434,00824-Dd4bFSTQ8gi,dishwasher,not_reached_goal,128
+3448,00827-BAbdmeyTvMZ,dishwasher,not_reached_goal,128
+1966,00891-cvZr5TUy5C5,stair,not_reached_goal,135
+122,00829-QaLdnwvtxbs,ottoman,not_reached_goal,131
+5457,00802-wcojb4TFT35,microwave,not_reached_goal,141
+6448,00814-p53SfW6mjZe,bedframe,not_reached_goal,145
+291,00849-a8BtkwhxdRV,mirror,not_reached_goal,142
+6168,00853-5cdEh9F2hJL,plant,not_reached_goal,143
+3891,00821-eF36g7L6Z9M,carpet,not_reached_goal,136
+5535,00873-bxsVRursffK,refrigerator,not_reached_goal,126
+5409,00808-y9hTuugGdiq,refrigerator,not_reached_goal,132
+3644,00824-Dd4bFSTQ8gi,refrigerator,not_reached_goal,120
+3195,00810-CrMo8WxCyVb,microwave,not_reached_goal,129
+934,00890-6s7QHgap2fW,plant,not_reached_goal,122
+4328,00814-p53SfW6mjZe,microwave,not_reached_goal,143
+614,00835-q3zU7Yy5E5s,picture,empty_goto_sequence,88
+1723,00821-eF36g7L6Z9M,pillow,not_reached_goal,158
+2294,00827-BAbdmeyTvMZ,hanging clothes,not_reached_goal,140
+3078,00873-bxsVRursffK,pillow,not_reached_goal,140
+1753,00831-yr17PDCnDDW,vase,not_reached_goal,135
