@@ -1,0 +1,6 @@
+episode_id,scene_id,goal,reason,step
+1723,00821-eF36g7L6Z9M,pillow,not_reached_goal,604
+1190,00815-h1zeeAwLh9Z,pillow,path_planning_failed,456
+2294,00827-BAbdmeyTvMZ,hanging clothes,path_planning_failed,283
+3078,00873-bxsVRursffK,pillow,path_planning_failed,387
+1753,00831-yr17PDCnDDW,vase,path_planning_failed,592

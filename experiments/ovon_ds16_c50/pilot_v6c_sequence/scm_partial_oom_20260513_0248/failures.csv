@@ -1,0 +1,15 @@
+episode_id,scene_id,goal,reason,step
+2644,00824-Dd4bFSTQ8gi,flowerpot,not_reached_goal,601
+1237,00869-MHPLjHsuG27,dishwasher,path_planning_failed,196
+6989,00844-q5QZSEeHe5g,exercise bike,path_planning_failed,227
+3693,00823-7MXmsvcQjpJ,guitar,path_planning_failed,365
+458,00873-bxsVRursffK,hanging clothes,path_planning_failed,420
+5908,00873-bxsVRursffK,refrigerator,path_planning_failed,292
+3983,00823-7MXmsvcQjpJ,guitar,path_planning_failed,333
+1891,00839-zt1RVoi7PcG,picture,not_reached_goal,609
+666,00802-wcojb4TFT35,picture,path_planning_failed,337
+4175,00800-TEEsavR23oF,pillow,path_planning_failed,460
+1054,00824-Dd4bFSTQ8gi,pillow,not_reached_goal,641
+2188,00813-svBbv1Pavdk,flower vase,not_reached_goal,611
+435,00814-p53SfW6mjZe,carpet,path_planning_failed,555
+1031,00835-q3zU7Yy5E5s,pillow,empty_goto_sequence,171

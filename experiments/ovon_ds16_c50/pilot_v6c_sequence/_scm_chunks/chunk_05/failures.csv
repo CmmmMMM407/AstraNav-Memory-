@@ -1,0 +1,5 @@
+episode_id,scene_id,goal,reason,step
+6971,00808-y9hTuugGdiq,rug,path_planning_failed,507
+5583,00877-4ok3usBNeis,dishwasher,path_planning_failed,340
+4434,00824-Dd4bFSTQ8gi,dishwasher,not_reached_goal,627
+3448,00827-BAbdmeyTvMZ,dishwasher,path_planning_failed,402

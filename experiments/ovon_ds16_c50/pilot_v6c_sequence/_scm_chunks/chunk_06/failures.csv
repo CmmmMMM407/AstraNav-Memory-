@@ -1,0 +1,3 @@
+episode_id,scene_id,goal,reason,step
+122,00829-QaLdnwvtxbs,ottoman,not_reached_goal,666
+2665,00832-qyAac8rV8Zk,dishwasher,path_planning_failed,332

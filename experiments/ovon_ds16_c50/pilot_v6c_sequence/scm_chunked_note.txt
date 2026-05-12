@@ -1,0 +1,1 @@
+SCM rerun in 5-episode chunks with PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True after prior OOM in monolithic run. Same 50 pilot episodes, same selector, same K=50.

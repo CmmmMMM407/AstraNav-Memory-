@@ -1,0 +1,11 @@
+run_name: "experiments__parser_audit__strict_found"
+benchmark: "hm3d_ovon"
+entrypoint: ""
+checkpoint: ""
+selector: "recent_k"
+parser_mode: "strict_found"
+memory_k: 50
+episodes_file: ""
+save_video: false
+status: "completed"
+notes: "Replay audit from constrained-output recent_k 50-episode source logs."
