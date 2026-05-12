@@ -1,0 +1,4 @@
+source_selector,parser_mode,num_episodes,num_steps,empty_output_steps,empty_output_rate,parsed_found_steps,parsed_found_rate,parsed_coord_steps,parsed_coord_rate,valid_coord_steps,valid_coord_rate,note
+recent_k,original,49,288,288,1.0,0,0.0,0,0.0,0,0.0,Replay audit from recent_k pilot step logs; parser-only comparison on fixed raw outputs.
+recent_k,strict_found,49,288,288,1.0,0,0.0,0,0.0,0,0.0,Replay audit from recent_k pilot step logs; parser-only comparison on fixed raw outputs.
+recent_k,coord_validator,49,288,288,1.0,0,0.0,0,0.0,0,0.0,Replay audit from recent_k pilot step logs; parser-only comparison on fixed raw outputs.

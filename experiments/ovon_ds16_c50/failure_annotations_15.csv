@@ -1,0 +1,16 @@
+selector,episode_id,scene_id,goal,primary_category,secondary_category,evidence,reason,step,confidence
+scm,2644,00824-Dd4bFSTQ8gi,flowerpot,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,140,high
+scm,1237,00869-MHPLjHsuG27,dishwasher,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,128,high
+scm,6989,00844-q5QZSEeHe5g,exercise bike,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,126,high
+scm,3693,00823-7MXmsvcQjpJ,guitar,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,135,high
+scm,458,00873-bxsVRursffK,hanging clothes,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,144,high
+scm,5908,00873-bxsVRursffK,refrigerator,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,125,high
+scm,3983,00823-7MXmsvcQjpJ,guitar,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,131,high
+scm,4175,00800-TEEsavR23oF,pillow,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,150,high
+scm,1054,00824-Dd4bFSTQ8gi,pillow,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,155,high
+scm,2188,00813-svBbv1Pavdk,flower vase,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,134,high
+scm,4548,00876-mv2HUxq3B53,shower glass,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,156,high
+scm,435,00814-p53SfW6mjZe,carpet,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,174,high
+scm,1031,00835-q3zU7Yy5E5s,pillow,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,144,high
+scm,4029,00876-mv2HUxq3B53,flower vase,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,125,high
+scm,568,00843-DYehNKdT76V,mirror,parser,undetermined,raw_model_output empty on all recorded decision steps; parsed_coord missing; frontier fallback used,not_reached_goal,133,high
