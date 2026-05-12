@@ -1,0 +1,27 @@
+{
+  "selector": "recent_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/episode_lists/smoke_10_val_unseen.json",
+  "num_episodes": 1,
+  "avg_sr": 0.0,
+  "avg_spl": 0.0,
+  "avg_steps": 140.0,
+  "avg_steps_per_sec": 1.6142399490311456,
+  "wall_time_sec": 86.9319314956665,
+  "episodes": [
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 41,
+      "episode_id": "2644",
+      "object_category": "flowerpot",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 140,
+      "episode_time_sec": 86.72812247276306,
+      "steps_per_sec": 1.6142399490311456,
+      "gpu_mem_used_mib": 10778,
+      "selector": "recent_k",
+      "memory_k": 50
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+date_utc: 2026-05-11
+machine_gpu: NVIDIA GeForce RTX 4090
+python_env: /root/miniconda3/envs/astra_nav
+
+status:
+  hm3d_archives_uploaded: true
+  hm3d_archives_extracted: true
+  hm3d_scene_dirs: 100
+  hm3d_basis_links: 100
+  ds16_context50_checkpoint: ready
+  ds64_context100_checkpoint: missing
+  experiments_skeleton: ready
+  sha256_manifest: /root/autodl-tmp/experiments/_meta/sha256_manifest.txt
+  screen_session: 195292.astranav (detached)
+
+versions:
+  habitat_sim: 0.2.3
+  habitat_lab: 0.2.5 (pip package habitat-lab==0.2.520230729)
+
+notes:
+  - Expected habitat-lab target is v0.2.3_waypoint; direct GitHub retrieval was unstable in this network session.
+  - Added compatibility guard in site-packages habitat/core/batch_rendering/env_batch_renderer.py to avoid ReplayRenderer import crash under habitat-sim 0.2.3.

@@ -1,0 +1,8 @@
+run_name: null
+benchmark: hm3d_ovon
+checkpoint: /root/autodl-tmp/checkpoints/chongchongjj/AstraNav_Memory_ds16_context50
+selector: null
+memory_k: 50
+episodes_file: null
+save_video: false
+notes: ""

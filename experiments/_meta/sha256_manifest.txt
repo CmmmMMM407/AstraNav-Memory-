@@ -1,0 +1,4 @@
+426865642244d25fcc031821722e4cae404e109bf09a660df6eb8d499b17e487  /root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/dataset/hm3d-val-glb-v0.2.tar
+f80af5c77c94e120f0f256c5bf596908948b6fc2243cb6b8d52e6bc54ef86578  /root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/dataset/hm3d-val-semantic-configs-v0.2.tar
+1faac8fcd9a577705e642ad4133c493f5bd1df2cbd2cc88c5b91f90289be2c7f  /root/autodl-tmp/checkpoints/chongchongjj/AstraNav_Memory_ds16_context50/model-00001-of-00002.safetensors
+136092708f662ef725769df1fe022cf20dada6b24558a8bc0d30a5c39ea4789d  /root/autodl-tmp/checkpoints/chongchongjj/AstraNav_Memory_ds16_context50/model-00002-of-00002.safetensors

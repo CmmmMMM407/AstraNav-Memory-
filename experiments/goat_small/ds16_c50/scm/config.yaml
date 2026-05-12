@@ -1,0 +1,11 @@
+run_name: "goat_small__ds16_c50__scm"
+benchmark: "goat_bench"
+entrypoint: "/root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/goat-nav.py"
+checkpoint: "/root/autodl-tmp/checkpoints/chongchongjj/AstraNav_Memory_ds16_context50"
+selector: "scm"
+parser_mode: "original"
+memory_k: 50
+episodes_file: "/root/autodl-tmp/episode_lists/pilot_50_val_unseen.json"
+save_video: false
+status: "planned"
+notes: "official-readme-aligned template"

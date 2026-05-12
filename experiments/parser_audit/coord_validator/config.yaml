@@ -1,0 +1,11 @@
+run_name: "experiments__parser_audit__coord_validator"
+benchmark: "hm3d_ovon"
+entrypoint: "/root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/ovon-nav.py"
+checkpoint: "/root/autodl-tmp/checkpoints/chongchongjj/AstraNav_Memory_ds16_context50"
+selector: "recent_k"
+parser_mode: "coord_validator"
+memory_k: 50
+episodes_file: "/root/autodl-tmp/episode_lists/pilot_50_val_unseen.json"
+save_video: false
+status: "planned"
+notes: "official-readme-aligned template"

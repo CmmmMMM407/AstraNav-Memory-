@@ -1,0 +1,21 @@
+{
+  "date_utc": "2026-05-12",
+  "project_root": "/root/autodl-tmp",
+  "official_repo": "https://github.com/amap-cvlab/AstraNav-Memory",
+  "official_readme": "https://raw.githubusercontent.com/amap-cvlab/AstraNav-Memory/main/README.md",
+  "python_env": "/root/miniconda3/envs/astra_nav",
+  "gpu": "NVIDIA GeForce RTX 4090, 24564 MiB",
+  "dependencies": {
+    "habitat_sim_target": "v0.2.3 (official README)",
+    "habitat_lab_target": "v0.2.3_waypoint (official README)"
+  },
+  "checkpoints": {
+    "ds16_context50": "ready",
+    "ds64_context100": "missing"
+  },
+  "episode_lists": {
+    "smoke_10_val_unseen": true,
+    "pilot_50_val_unseen": true
+  },
+  "structure_complete": true
+}
