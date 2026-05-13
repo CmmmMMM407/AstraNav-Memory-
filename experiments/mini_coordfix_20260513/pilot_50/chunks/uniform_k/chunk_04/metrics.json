@@ -1,0 +1,83 @@
+{
+  "selector": "uniform_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_coordfix_20260513/pilot_50/_episode_chunks/chunk_04.json",
+  "num_episodes": 5,
+  "avg_sr": 0.2,
+  "avg_spl": 0.03615507769844148,
+  "avg_steps": 509.0,
+  "avg_steps_per_sec": 15.399432350345112,
+  "wall_time_sec": 158.14712071418762,
+  "episodes": [
+    {
+      "scan_id": "00803-k1cupFYWXJ6",
+      "episode_index": 36,
+      "episode_id": "2096",
+      "object_category": "stair",
+      "sr": 1,
+      "spl": 0.1807753884922074,
+      "steps": 118,
+      "episode_time_sec": 17.50152564048767,
+      "steps_per_sec": 6.742269355479571,
+      "gpu_mem_used_mib": 11140,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00839-zt1RVoi7PcG",
+      "episode_index": 7,
+      "episode_id": "270",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 546,
+      "episode_time_sec": 28.426272869110107,
+      "steps_per_sec": 19.207583157808923,
+      "gpu_mem_used_mib": 13432,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00800-TEEsavR23oF",
+      "episode_index": 46,
+      "episode_id": "2750",
+      "object_category": "microwave",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 633,
+      "episode_time_sec": 38.31589221954346,
+      "steps_per_sec": 16.52056009483008,
+      "gpu_mem_used_mib": 14356,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00861-GLAQ4DNUx5U",
+      "episode_index": 38,
+      "episode_id": "2119",
+      "object_category": "mirror",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 647,
+      "episode_time_sec": 37.897186040878296,
+      "steps_per_sec": 17.0725076870379,
+      "gpu_mem_used_mib": 15626,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00862-LT9Jq6dN3Ea",
+      "episode_index": 55,
+      "episode_id": "3012",
+      "object_category": "stair",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 601,
+      "episode_time_sec": 34.43289136886597,
+      "steps_per_sec": 17.45424145656908,
+      "gpu_mem_used_mib": 17799,
+      "selector": "uniform_k",
+      "memory_k": 50
+    }
+  ]
+}

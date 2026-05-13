@@ -1,0 +1,83 @@
+{
+  "selector": "recent_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_coordfix_20260513/pilot_50/_episode_chunks/chunk_05.json",
+  "num_episodes": 5,
+  "avg_sr": 0.2,
+  "avg_spl": 0.04497330185094857,
+  "avg_steps": 409.4,
+  "avg_steps_per_sec": 13.790982213708077,
+  "wall_time_sec": 136.9482660293579,
+  "episodes": [
+    {
+      "scan_id": "00808-y9hTuugGdiq",
+      "episode_index": 111,
+      "episode_id": "6971",
+      "object_category": "rug",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 642,
+      "episode_time_sec": 42.62693476676941,
+      "steps_per_sec": 15.060899957096671,
+      "gpu_mem_used_mib": 11768,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00877-4ok3usBNeis",
+      "episode_index": 95,
+      "episode_id": "5583",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 301,
+      "episode_time_sec": 23.965080976486206,
+      "steps_per_sec": 12.559940869606569,
+      "gpu_mem_used_mib": 12398,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00844-q5QZSEeHe5g",
+      "episode_index": 67,
+      "episode_id": "3710",
+      "object_category": "rug",
+      "sr": 1,
+      "spl": 0.22486650925474283,
+      "steps": 61,
+      "episode_time_sec": 9.243638753890991,
+      "steps_per_sec": 6.599132833303641,
+      "gpu_mem_used_mib": 14090,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 66,
+      "episode_id": "4434",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 638,
+      "episode_time_sec": 35.284016847610474,
+      "steps_per_sec": 18.081841496547383,
+      "gpu_mem_used_mib": 14808,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00827-BAbdmeyTvMZ",
+      "episode_index": 53,
+      "episode_id": "3448",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 405,
+      "episode_time_sec": 24.319802284240723,
+      "steps_per_sec": 16.653095911986124,
+      "gpu_mem_used_mib": 15571,
+      "selector": "recent_k",
+      "memory_k": 50
+    }
+  ]
+}

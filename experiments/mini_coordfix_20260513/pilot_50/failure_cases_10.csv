@@ -1,0 +1,11 @@
+selector,episode_id,scene_id,goal,reason,step
+recent_k,1237,00869-MHPLjHsuG27,dishwasher,path_planning_failed,276
+recent_k,6989,00844-q5QZSEeHe5g,exercise bike,path_planning_failed,263
+recent_k,3693,00823-7MXmsvcQjpJ,guitar,path_planning_failed,496
+recent_k,5908,00873-bxsVRursffK,refrigerator,path_planning_failed,304
+recent_k,3983,00823-7MXmsvcQjpJ,guitar,path_planning_failed,353
+recent_k,666,00802-wcojb4TFT35,picture,path_planning_failed,209
+recent_k,4175,00800-TEEsavR23oF,pillow,not_reached_goal,678
+recent_k,1054,00824-Dd4bFSTQ8gi,pillow,not_reached_goal,641
+recent_k,810,00824-Dd4bFSTQ8gi,flower vase,not_reached_goal,617
+recent_k,2188,00813-svBbv1Pavdk,flower vase,not_reached_goal,635

@@ -1,0 +1,83 @@
+{
+  "selector": "uniform_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_coordfix_20260513/pilot_50/_episode_chunks/chunk_06.json",
+  "num_episodes": 5,
+  "avg_sr": 0.4,
+  "avg_spl": 0.03667319607449764,
+  "avg_steps": 511.4,
+  "avg_steps_per_sec": 16.210942161629802,
+  "wall_time_sec": 158.55410838127136,
+  "episodes": [
+    {
+      "scan_id": "00891-cvZr5TUy5C5",
+      "episode_index": 32,
+      "episode_id": "1966",
+      "object_category": "stair",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 640,
+      "episode_time_sec": 44.60411500930786,
+      "steps_per_sec": 14.34845192795433,
+      "gpu_mem_used_mib": 12144,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00829-QaLdnwvtxbs",
+      "episode_index": 2,
+      "episode_id": "122",
+      "object_category": "ottoman",
+      "sr": 1,
+      "spl": 0.04821061811356725,
+      "steps": 715,
+      "episode_time_sec": 36.436824798583984,
+      "steps_per_sec": 19.62300513154995,
+      "gpu_mem_used_mib": 12642,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00802-wcojb4TFT35",
+      "episode_index": 85,
+      "episode_id": "5457",
+      "object_category": "microwave",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 301,
+      "episode_time_sec": 20.415943384170532,
+      "steps_per_sec": 14.743379443018041,
+      "gpu_mem_used_mib": 14090,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00832-qyAac8rV8Zk",
+      "episode_index": 40,
+      "episode_id": "2665",
+      "object_category": "dishwasher",
+      "sr": 1,
+      "spl": 0.13515536225892097,
+      "steps": 505,
+      "episode_time_sec": 29.99516248703003,
+      "steps_per_sec": 16.836048153376833,
+      "gpu_mem_used_mib": 14896,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00814-p53SfW6mjZe",
+      "episode_index": 97,
+      "episode_id": "6448",
+      "object_category": "bedframe",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 396,
+      "episode_time_sec": 25.54208207130432,
+      "steps_per_sec": 15.503826152249852,
+      "gpu_mem_used_mib": 16915,
+      "selector": "uniform_k",
+      "memory_k": 50
+    }
+  ]
+}

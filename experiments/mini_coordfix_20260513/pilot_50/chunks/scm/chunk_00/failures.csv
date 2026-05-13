@@ -1,0 +1,4 @@
+episode_id,scene_id,goal,reason,step
+1237,00869-MHPLjHsuG27,dishwasher,path_planning_failed,276
+6989,00844-q5QZSEeHe5g,exercise bike,path_planning_failed,263
+3693,00823-7MXmsvcQjpJ,guitar,path_planning_failed,496

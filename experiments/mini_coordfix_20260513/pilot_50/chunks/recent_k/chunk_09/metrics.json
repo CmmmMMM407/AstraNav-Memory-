@@ -1,0 +1,83 @@
+{
+  "selector": "recent_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_coordfix_20260513/pilot_50/_episode_chunks/chunk_09.json",
+  "num_episodes": 5,
+  "avg_sr": 0.2,
+  "avg_spl": 0.015164901286019572,
+  "avg_steps": 564.4,
+  "avg_steps_per_sec": 16.61001262078633,
+  "wall_time_sec": 174.309255361557,
+  "episodes": [
+    {
+      "scan_id": "00821-eF36g7L6Z9M",
+      "episode_index": 33,
+      "episode_id": "1723",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 638,
+      "episode_time_sec": 36.42173647880554,
+      "steps_per_sec": 17.51701213837686,
+      "gpu_mem_used_mib": 12220,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00815-h1zeeAwLh9Z",
+      "episode_index": 19,
+      "episode_id": "1190",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 646,
+      "episode_time_sec": 38.725834369659424,
+      "steps_per_sec": 16.681370731320445,
+      "gpu_mem_used_mib": 13490,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00827-BAbdmeyTvMZ",
+      "episode_index": 36,
+      "episode_id": "2294",
+      "object_category": "hanging clothes",
+      "sr": 1,
+      "spl": 0.07582450643009786,
+      "steps": 511,
+      "episode_time_sec": 26.857171058654785,
+      "steps_per_sec": 19.026575765705193,
+      "gpu_mem_used_mib": 14252,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00873-bxsVRursffK",
+      "episode_index": 53,
+      "episode_id": "3078",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 391,
+      "episode_time_sec": 38.456977128982544,
+      "steps_per_sec": 10.167205776174448,
+      "gpu_mem_used_mib": 14928,
+      "selector": "recent_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00831-yr17PDCnDDW",
+      "episode_index": 24,
+      "episode_id": "1753",
+      "object_category": "vase",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 636,
+      "episode_time_sec": 32.35340714454651,
+      "steps_per_sec": 19.6578986923547,
+      "gpu_mem_used_mib": 16904,
+      "selector": "recent_k",
+      "memory_k": 50
+    }
+  ]
+}

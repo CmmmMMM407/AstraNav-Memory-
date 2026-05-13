@@ -1,0 +1,32 @@
+[
+  {
+    "scan_id": "00824-Dd4bFSTQ8gi",
+    "scan_id_suffix": "Dd4bFSTQ8gi",
+    "episode_index": 61,
+    "object_category": "refrigerator"
+  },
+  {
+    "scan_id": "00810-CrMo8WxCyVb",
+    "scan_id_suffix": "CrMo8WxCyVb",
+    "episode_index": 54,
+    "object_category": "microwave"
+  },
+  {
+    "scan_id": "00890-6s7QHgap2fW",
+    "scan_id_suffix": "6s7QHgap2fW",
+    "episode_index": 14,
+    "object_category": "plant"
+  },
+  {
+    "scan_id": "00814-p53SfW6mjZe",
+    "scan_id_suffix": "p53SfW6mjZe",
+    "episode_index": 71,
+    "object_category": "microwave"
+  },
+  {
+    "scan_id": "00835-q3zU7Yy5E5s",
+    "scan_id_suffix": "q3zU7Yy5E5s",
+    "episode_index": 15,
+    "object_category": "picture"
+  }
+]

@@ -1,0 +1,5 @@
+episode_id,scene_id,goal,reason,step
+1723,00821-eF36g7L6Z9M,pillow,not_reached_goal,638
+1190,00815-h1zeeAwLh9Z,pillow,not_reached_goal,646
+3078,00873-bxsVRursffK,pillow,path_planning_failed,391
+1753,00831-yr17PDCnDDW,vase,not_reached_goal,636

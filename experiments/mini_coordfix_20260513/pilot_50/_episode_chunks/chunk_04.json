@@ -1,0 +1,32 @@
+[
+  {
+    "scan_id": "00803-k1cupFYWXJ6",
+    "scan_id_suffix": "k1cupFYWXJ6",
+    "episode_index": 36,
+    "object_category": "stair"
+  },
+  {
+    "scan_id": "00839-zt1RVoi7PcG",
+    "scan_id_suffix": "zt1RVoi7PcG",
+    "episode_index": 7,
+    "object_category": "pillow"
+  },
+  {
+    "scan_id": "00800-TEEsavR23oF",
+    "scan_id_suffix": "TEEsavR23oF",
+    "episode_index": 46,
+    "object_category": "microwave"
+  },
+  {
+    "scan_id": "00861-GLAQ4DNUx5U",
+    "scan_id_suffix": "GLAQ4DNUx5U",
+    "episode_index": 38,
+    "object_category": "mirror"
+  },
+  {
+    "scan_id": "00862-LT9Jq6dN3Ea",
+    "scan_id_suffix": "LT9Jq6dN3Ea",
+    "episode_index": 55,
+    "object_category": "stair"
+  }
+]

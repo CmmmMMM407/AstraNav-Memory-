@@ -1,0 +1,83 @@
+{
+  "selector": "uniform_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_coordfix_20260513/pilot_50/_episode_chunks/chunk_00.json",
+  "num_episodes": 5,
+  "avg_sr": 0.4,
+  "avg_spl": 0.06771281723541869,
+  "avg_steps": 418.0,
+  "avg_steps_per_sec": 13.477219347627786,
+  "wall_time_sec": 159.38742852210999,
+  "episodes": [
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 41,
+      "episode_id": "2644",
+      "object_category": "flowerpot",
+      "sr": 1,
+      "spl": 0.024758475474164744,
+      "steps": 618,
+      "episode_time_sec": 38.87436890602112,
+      "steps_per_sec": 15.897364186001745,
+      "gpu_mem_used_mib": 10886,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00869-MHPLjHsuG27",
+      "episode_index": 18,
+      "episode_id": "1237",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 276,
+      "episode_time_sec": 18.170509338378906,
+      "steps_per_sec": 15.189447629684524,
+      "gpu_mem_used_mib": 11426,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00844-q5QZSEeHe5g",
+      "episode_index": 121,
+      "episode_id": "6989",
+      "object_category": "exercise bike",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 263,
+      "episode_time_sec": 19.654622316360474,
+      "steps_per_sec": 13.381076256096728,
+      "gpu_mem_used_mib": 13118,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00823-7MXmsvcQjpJ",
+      "episode_index": 58,
+      "episode_id": "3693",
+      "object_category": "guitar",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 496,
+      "episode_time_sec": 41.09869408607483,
+      "steps_per_sec": 12.068509986259054,
+      "gpu_mem_used_mib": 15104,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00873-bxsVRursffK",
+      "episode_index": 6,
+      "episode_id": "458",
+      "object_category": "hanging clothes",
+      "sr": 1,
+      "spl": 0.31380561070292873,
+      "steps": 437,
+      "episode_time_sec": 40.27761626243591,
+      "steps_per_sec": 10.84969868009689,
+      "gpu_mem_used_mib": 15777,
+      "selector": "uniform_k",
+      "memory_k": 50
+    }
+  ]
+}

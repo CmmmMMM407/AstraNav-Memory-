@@ -1,0 +1,5 @@
+episode_id,scene_id,goal,reason,step
+1031,00835-q3zU7Yy5E5s,pillow,path_planning_failed,480
+126,00823-7MXmsvcQjpJ,picture,path_planning_failed,333
+4029,00876-mv2HUxq3B53,flower vase,not_reached_goal,603
+568,00843-DYehNKdT76V,mirror,not_reached_goal,669

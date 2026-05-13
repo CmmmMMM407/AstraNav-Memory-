@@ -1,0 +1,4 @@
+episode_id,scene_id,goal,reason,step
+1966,00891-cvZr5TUy5C5,stair,not_reached_goal,640
+5457,00802-wcojb4TFT35,microwave,path_planning_failed,301
+6448,00814-p53SfW6mjZe,bedframe,path_planning_failed,396
