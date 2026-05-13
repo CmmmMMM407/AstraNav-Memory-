@@ -1,0 +1,83 @@
+{
+  "selector": "uniform_k",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_official_20260513/pilot_50/_episode_chunks/chunk_05.json",
+  "num_episodes": 5,
+  "avg_sr": 0.2,
+  "avg_spl": 0.04497330185094857,
+  "avg_steps": 387.4,
+  "avg_steps_per_sec": 15.777730942410088,
+  "wall_time_sec": 118.01144051551819,
+  "episodes": [
+    {
+      "scan_id": "00808-y9hTuugGdiq",
+      "episode_index": 111,
+      "episode_id": "6971",
+      "object_category": "rug",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 507,
+      "episode_time_sec": 37.11723852157593,
+      "steps_per_sec": 13.659421341522627,
+      "gpu_mem_used_mib": 11762,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00877-4ok3usBNeis",
+      "episode_index": 95,
+      "episode_id": "5583",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 340,
+      "episode_time_sec": 19.219316482543945,
+      "steps_per_sec": 17.690535472934585,
+      "gpu_mem_used_mib": 12392,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00844-q5QZSEeHe5g",
+      "episode_index": 67,
+      "episode_id": "3710",
+      "object_category": "rug",
+      "sr": 1,
+      "spl": 0.22486650925474283,
+      "steps": 61,
+      "episode_time_sec": 6.694021463394165,
+      "steps_per_sec": 9.112608965115314,
+      "gpu_mem_used_mib": 14084,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 66,
+      "episode_id": "4434",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 627,
+      "episode_time_sec": 32.55767512321472,
+      "steps_per_sec": 19.25813184224963,
+      "gpu_mem_used_mib": 14802,
+      "selector": "uniform_k",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00827-BAbdmeyTvMZ",
+      "episode_index": 53,
+      "episode_id": "3448",
+      "object_category": "dishwasher",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 402,
+      "episode_time_sec": 20.972501039505005,
+      "steps_per_sec": 19.167957090228285,
+      "gpu_mem_used_mib": 15565,
+      "selector": "uniform_k",
+      "memory_k": 50
+    }
+  ]
+}

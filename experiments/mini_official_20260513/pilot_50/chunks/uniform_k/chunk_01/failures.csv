@@ -1,0 +1,6 @@
+episode_id,scene_id,goal,reason,step
+5908,00873-bxsVRursffK,refrigerator,path_planning_failed,292
+3983,00823-7MXmsvcQjpJ,guitar,path_planning_failed,333
+1891,00839-zt1RVoi7PcG,picture,not_reached_goal,609
+666,00802-wcojb4TFT35,picture,path_planning_failed,337
+4175,00800-TEEsavR23oF,pillow,path_planning_failed,460

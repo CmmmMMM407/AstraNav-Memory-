@@ -1,0 +1,16 @@
+{
+  "step_count": 118,
+  "required_field_presence": {
+    "raw_model_output": 118,
+    "selected_indices": 118,
+    "pose": 118,
+    "frontier_candidates": 118
+  },
+  "nonempty_raw_model_output_steps": 118,
+  "nonempty_selected_indices_steps": 118,
+  "pose_object_steps": 118,
+  "frontier_candidates_list_steps": 118,
+  "parsed_found_steps": 118,
+  "parsed_coord_steps": 0,
+  "false_found_candidate_steps": 118
+}

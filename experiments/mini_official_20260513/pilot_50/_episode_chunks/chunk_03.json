@@ -1,0 +1,32 @@
+[
+  {
+    "scan_id": "00835-q3zU7Yy5E5s",
+    "scan_id_suffix": "q3zU7Yy5E5s",
+    "episode_index": 20,
+    "object_category": "pillow"
+  },
+  {
+    "scan_id": "00823-7MXmsvcQjpJ",
+    "scan_id_suffix": "7MXmsvcQjpJ",
+    "episode_index": 7,
+    "object_category": "picture"
+  },
+  {
+    "scan_id": "00848-ziup5kvtCCR",
+    "scan_id_suffix": "ziup5kvtCCR",
+    "episode_index": 6,
+    "object_category": "mirror"
+  },
+  {
+    "scan_id": "00876-mv2HUxq3B53",
+    "scan_id_suffix": "mv2HUxq3B53",
+    "episode_index": 68,
+    "object_category": "flower vase"
+  },
+  {
+    "scan_id": "00843-DYehNKdT76V",
+    "scan_id_suffix": "DYehNKdT76V",
+    "episode_index": 9,
+    "object_category": "mirror"
+  }
+]

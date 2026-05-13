@@ -1,0 +1,6 @@
+episode_id,scene_id,goal,reason,step
+2644,00824-Dd4bFSTQ8gi,flowerpot,not_reached_goal,601
+1237,00869-MHPLjHsuG27,dishwasher,path_planning_failed,196
+6989,00844-q5QZSEeHe5g,exercise bike,path_planning_failed,227
+3693,00823-7MXmsvcQjpJ,guitar,path_planning_failed,365
+458,00873-bxsVRursffK,hanging clothes,path_planning_failed,420

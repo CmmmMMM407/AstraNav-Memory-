@@ -1,0 +1,32 @@
+[
+  {
+    "scan_id": "00808-y9hTuugGdiq",
+    "scan_id_suffix": "y9hTuugGdiq",
+    "episode_index": 111,
+    "object_category": "rug"
+  },
+  {
+    "scan_id": "00877-4ok3usBNeis",
+    "scan_id_suffix": "4ok3usBNeis",
+    "episode_index": 95,
+    "object_category": "dishwasher"
+  },
+  {
+    "scan_id": "00844-q5QZSEeHe5g",
+    "scan_id_suffix": "q5QZSEeHe5g",
+    "episode_index": 67,
+    "object_category": "rug"
+  },
+  {
+    "scan_id": "00824-Dd4bFSTQ8gi",
+    "scan_id_suffix": "Dd4bFSTQ8gi",
+    "episode_index": 66,
+    "object_category": "dishwasher"
+  },
+  {
+    "scan_id": "00827-BAbdmeyTvMZ",
+    "scan_id_suffix": "BAbdmeyTvMZ",
+    "episode_index": 53,
+    "object_category": "dishwasher"
+  }
+]

@@ -1,0 +1,5 @@
+episode_id,scene_id,goal,reason,step
+6168,00853-5cdEh9F2hJL,plant,not_reached_goal,603
+3891,00821-eF36g7L6Z9M,carpet,not_reached_goal,687
+5535,00873-bxsVRursffK,refrigerator,path_planning_failed,269
+5409,00808-y9hTuugGdiq,refrigerator,path_planning_failed,483

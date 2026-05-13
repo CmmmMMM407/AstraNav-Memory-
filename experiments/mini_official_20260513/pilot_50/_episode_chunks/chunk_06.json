@@ -1,0 +1,32 @@
+[
+  {
+    "scan_id": "00891-cvZr5TUy5C5",
+    "scan_id_suffix": "cvZr5TUy5C5",
+    "episode_index": 32,
+    "object_category": "stair"
+  },
+  {
+    "scan_id": "00829-QaLdnwvtxbs",
+    "scan_id_suffix": "QaLdnwvtxbs",
+    "episode_index": 2,
+    "object_category": "ottoman"
+  },
+  {
+    "scan_id": "00802-wcojb4TFT35",
+    "scan_id_suffix": "wcojb4TFT35",
+    "episode_index": 85,
+    "object_category": "microwave"
+  },
+  {
+    "scan_id": "00832-qyAac8rV8Zk",
+    "scan_id_suffix": "qyAac8rV8Zk",
+    "episode_index": 40,
+    "object_category": "dishwasher"
+  },
+  {
+    "scan_id": "00814-p53SfW6mjZe",
+    "scan_id_suffix": "p53SfW6mjZe",
+    "episode_index": 97,
+    "object_category": "bedframe"
+  }
+]

@@ -1,0 +1,4 @@
+episode_id,scene_id,goal,reason,step
+3644,00824-Dd4bFSTQ8gi,refrigerator,not_reached_goal,622
+4328,00814-p53SfW6mjZe,microwave,path_planning_failed,155
+614,00835-q3zU7Yy5E5s,picture,empty_goto_sequence,88

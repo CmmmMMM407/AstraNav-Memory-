@@ -1,0 +1,83 @@
+{
+  "selector": "scm",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_official_20260513/pilot_50/_episode_chunks/chunk_04.json",
+  "num_episodes": 5,
+  "avg_sr": 0.2,
+  "avg_spl": 0.02418924135689866,
+  "avg_steps": 451.4,
+  "avg_steps_per_sec": 20.373888442080702,
+  "wall_time_sec": 111.42204666137695,
+  "episodes": [
+    {
+      "scan_id": "00803-k1cupFYWXJ6",
+      "episode_index": 36,
+      "episode_id": "2096",
+      "object_category": "stair",
+      "sr": 1,
+      "spl": 0.1209462067844933,
+      "steps": 156,
+      "episode_time_sec": 12.876759052276611,
+      "steps_per_sec": 12.11484965795172,
+      "gpu_mem_used_mib": 10716,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00839-zt1RVoi7PcG",
+      "episode_index": 7,
+      "episode_id": "270",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 445,
+      "episode_time_sec": 17.15368962287903,
+      "steps_per_sec": 25.941940759291434,
+      "gpu_mem_used_mib": 12850,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00800-TEEsavR23oF",
+      "episode_index": 46,
+      "episode_id": "2750",
+      "object_category": "microwave",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 545,
+      "episode_time_sec": 25.92700695991516,
+      "steps_per_sec": 21.02055207693682,
+      "gpu_mem_used_mib": 13892,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00861-GLAQ4DNUx5U",
+      "episode_index": 38,
+      "episode_id": "2119",
+      "object_category": "mirror",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 628,
+      "episode_time_sec": 34.300758600234985,
+      "steps_per_sec": 18.308632975706193,
+      "gpu_mem_used_mib": 15242,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00862-LT9Jq6dN3Ea",
+      "episode_index": 55,
+      "episode_id": "3012",
+      "object_category": "stair",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 483,
+      "episode_time_sec": 19.727598428726196,
+      "steps_per_sec": 24.483466740517343,
+      "gpu_mem_used_mib": 17415,
+      "selector": "scm",
+      "memory_k": 50
+    }
+  ]
+}

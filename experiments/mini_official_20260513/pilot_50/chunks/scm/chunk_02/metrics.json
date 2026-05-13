@@ -1,0 +1,83 @@
+{
+  "selector": "scm",
+  "memory_k": 50,
+  "episodes_file": "/root/autodl-tmp/experiments/mini_official_20260513/pilot_50/_episode_chunks/chunk_02.json",
+  "num_episodes": 5,
+  "avg_sr": 0.4,
+  "avg_spl": 0.043902728296533244,
+  "avg_steps": 608.4,
+  "avg_steps_per_sec": 22.290937388598802,
+  "wall_time_sec": 140.60381841659546,
+  "episodes": [
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 22,
+      "episode_id": "1054",
+      "object_category": "pillow",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 641,
+      "episode_time_sec": 31.42755937576294,
+      "steps_per_sec": 20.396111334510493,
+      "gpu_mem_used_mib": 10542,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00824-Dd4bFSTQ8gi",
+      "episode_index": 12,
+      "episode_id": "810",
+      "object_category": "flower vase",
+      "sr": 1,
+      "spl": 0.03352945969699765,
+      "steps": 603,
+      "episode_time_sec": 30.91409659385681,
+      "steps_per_sec": 19.505664613852147,
+      "gpu_mem_used_mib": 11322,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00813-svBbv1Pavdk",
+      "episode_index": 39,
+      "episode_id": "2188",
+      "object_category": "flower vase",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 611,
+      "episode_time_sec": 28.485913038253784,
+      "steps_per_sec": 21.449198387269067,
+      "gpu_mem_used_mib": 11996,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00876-mv2HUxq3B53",
+      "episode_index": 77,
+      "episode_id": "4548",
+      "object_category": "shower glass",
+      "sr": 1,
+      "spl": 0.18598418178566856,
+      "steps": 632,
+      "episode_time_sec": 28.687159538269043,
+      "steps_per_sec": 22.030762549247992,
+      "gpu_mem_used_mib": 13466,
+      "selector": "scm",
+      "memory_k": 50
+    },
+    {
+      "scan_id": "00814-p53SfW6mjZe",
+      "episode_index": 5,
+      "episode_id": "435",
+      "object_category": "carpet",
+      "sr": 0,
+      "spl": 0.0,
+      "steps": 555,
+      "episode_time_sec": 19.769920825958252,
+      "steps_per_sec": 28.07295005811431,
+      "gpu_mem_used_mib": 15483,
+      "selector": "scm",
+      "memory_k": 50
+    }
+  ]
+}
