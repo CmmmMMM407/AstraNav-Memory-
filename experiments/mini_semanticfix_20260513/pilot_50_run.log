@@ -1,0 +1,6 @@
+[2026-05-13 21:53:07] RUN selector=recent_k
+[2026-05-13 22:37:05] DONE selector=recent_k
+[2026-05-13 22:37:05] RUN selector=uniform_k
+[2026-05-13 23:22:56] DONE selector=uniform_k
+[2026-05-13 23:22:56] RUN selector=scm
+[2026-05-14 00:02:31] DONE selector=scm
