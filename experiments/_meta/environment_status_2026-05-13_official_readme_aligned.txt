@@ -8,17 +8,18 @@ Official README target
 - habitat-lab: clone official chongchong2025/habitat-lab and checkout v0.2.3_waypoint
 - install habitat-lab and habitat-baselines from that source tree
 
-Source provenance used on server
+Active source provenance on server
 - habitat-sim source: /root/autodl-tmp/AstraNav-Memory/train_code/habitat-sim
   origin: https://github.com/facebookresearch/habitat-sim.git
   commit: fffa54376766602c4f12e30d0ee6100d56dd7a96
   describe: v0.2.3
-- habitat-lab clean source export: /root/autodl-tmp/AstraNav-Memory/train_code/_official_deps/habitat-lab_v0.2.3_waypoint
-  exported from: /root/autodl-tmp/AstraNav-Memory/train_code/habitat-lab_bak_20260511
-  origin of exported tree: https://github.com/chongchong2025/habitat-lab
-  source commit: 0ed0f8374d71e5a85b7d8b23bea8d3b7598cd65f
-  source branch: v0.2.3_waypoint
-  note: clean export was used to avoid dirty untracked files in the backup checkout.
+- habitat-lab active source: /root/autodl-tmp/AstraNav-Memory/train_code/habitat-lab_worktree_v0.2.3_waypoint_clean
+  created via: git worktree add --detach
+  parent official repo: /root/autodl-tmp/AstraNav-Memory/train_code/habitat-lab_bak_20260511
+  parent origin: https://github.com/chongchong2025/habitat-lab
+  active commit: 0ed0f8374d71e5a85b7d8b23bea8d3b7598cd65f
+  source branch lineage: v0.2.3_waypoint
+  note: a clean git worktree is now the active editable source, replacing the earlier clean export transition path.
 
 Runtime package state after alignment
 - python: 3.9.23
@@ -26,19 +27,21 @@ Runtime package state after alignment
 - numpy: 1.26.4
 - transformers: 4.57.1
 - habitat-sim: 0.2.3
-- habitat-lab: 0.2.3
-- habitat-baselines: 0.2.3
+- habitat-lab package version: 0.2.3
+- habitat-baselines package version: 0.2.3
+- note: habitat-lab still reports package version 0.2.3 while the checked out source branch is v0.2.3_waypoint. That is expected for this official source tree.
 
 Resolved issue
 - Previous runtime had habitat_sim 0.2.5 and habitat-lab 0.2.5-era compatibility handling, which did not match the official README target.
+- Experiment scripts were injecting the old habitat-lab_bak_20260511 path through PYTHONPATH.
 - During official alignment, NumPy had drifted to 2.0.2. That broke quaternion and habitat-sim imports because this Habitat 0.2.3 stack is built against NumPy 1.x ABI.
 - NumPy was cleaned and pinned back to 1.26.4 so the official Habitat stack can actually run.
 
 Live import verification
 - import quaternion: OK
 - import habitat_sim: OK, version 0.2.3
-- import habitat: OK, path /root/autodl-tmp/AstraNav-Memory/train_code/_official_deps/habitat-lab_v0.2.3_waypoint/habitat-lab/habitat/__init__.py
-- import habitat_baselines: OK, path /root/autodl-tmp/AstraNav-Memory/train_code/_official_deps/habitat-lab_v0.2.3_waypoint/habitat-baselines/habitat_baselines/__init__.py
+- import habitat: OK, path /root/autodl-tmp/AstraNav-Memory/train_code/habitat-lab_worktree_v0.2.3_waypoint_clean/habitat-lab/habitat/__init__.py
+- import habitat_baselines: OK, path /root/autodl-tmp/AstraNav-Memory/train_code/habitat-lab_worktree_v0.2.3_waypoint_clean/habitat-baselines/habitat_baselines/__init__.py
 - python ovon_nav_experiment.py --help: OK
 
 Script path cleanup
@@ -50,9 +53,10 @@ Script path cleanup
 - Result: experiment entry scripts no longer inject the old backup habitat path through PYTHONPATH.
 
 Smoke execution proof
-- command: python ovon_nav_experiment.py --selector recent_k --memory-k 50 --episodes-file /root/autodl-tmp/episode_lists/smoke_10_val_unseen.json --max-episodes 1 --max-steps 5 --experiment-dir /root/autodl-tmp/experiments/_smoke_official_align_20260513/recent_k_1ep --checkpoint ./checkpoint-20000 --name official_align_recent_k_1ep
-- result: exit 0
-- observed output: sr=1.0, spl=0.6158940732557917, steps=30, avg_steps_per_sec=5.457278745765191, mem=9196MiB
+- pre-worktree check: 1-episode recent_k smoke passed under the aligned official package stack.
+- worktree command: python ovon_nav_experiment.py --selector recent_k --memory-k 50 --episodes-file /root/autodl-tmp/episode_lists/smoke_10_val_unseen.json --max-episodes 1 --max-steps 5 --experiment-dir /root/autodl-tmp/experiments/_smoke_official_align_20260513/recent_k_1ep_worktree --checkpoint ./checkpoint-20000 --name official_align_recent_k_1ep_worktree
+- worktree result: exit 0
+- observed output: sr=1.0, spl=0.6158940732557917, steps=30, avg_steps_per_sec=4.86166941150902, mem=9196MiB
 
 Caveats
 - habitat-lab emits a gym deprecation warning at import time. This is expected for the official older stack and does not indicate a mismatch.
