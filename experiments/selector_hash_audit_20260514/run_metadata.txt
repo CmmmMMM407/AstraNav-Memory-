@@ -1,0 +1,12 @@
+run_name=selector_hash_audit_20260514
+started_at=2026-05-14T13:19:58+08:00
+selectors=recent_k,uniform_k,scm
+memory_k=50
+max_episodes=5
+max_steps=250
+episodes_file=/root/autodl-tmp/episode_lists/pilot_50_val_unseen.json
+checkpoint=/root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/checkpoint-20000
+patch=ovon_nav_experiment_selected_image_hashes
+purpose=verify_selector_actual_image_fingerprints_before_minimum_submission
+finished_at=2026-05-14T13:26:58+08:00
+exit_status=0

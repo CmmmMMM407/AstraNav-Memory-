@@ -1,0 +1,6 @@
+[2026-05-14T13:19:58+08:00] START selector=recent_k
+[2026-05-14T13:22:10+08:00] END selector=recent_k status=0
+[2026-05-14T13:22:20+08:00] START selector=uniform_k
+[2026-05-14T13:24:33+08:00] END selector=uniform_k status=0
+[2026-05-14T13:24:43+08:00] START selector=scm
+[2026-05-14T13:26:48+08:00] END selector=scm status=0

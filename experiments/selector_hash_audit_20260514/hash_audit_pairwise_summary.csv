@@ -1,0 +1,4 @@
+pair,common_steps,same_indices,same_indices_rate,same_image_hashes,same_image_hashes_rate,same_pose_hashes,same_pose_hashes_rate,same_selection_fingerprint,same_selection_fingerprint_rate,same_raw,same_raw_rate,same_action,same_action_rate,same_frontiers,same_frontiers_rate
+recent_k__vs__uniform_k,34,34,1.0,34,1.0,34,1.0,34,1.0,34,1.0,34,1.0,34,1.0
+recent_k__vs__scm,34,10,0.29411764705882354,10,0.29411764705882354,10,0.29411764705882354,10,0.29411764705882354,34,1.0,34,1.0,34,1.0
+uniform_k__vs__scm,34,10,0.29411764705882354,10,0.29411764705882354,10,0.29411764705882354,10,0.29411764705882354,34,1.0,34,1.0,34,1.0
