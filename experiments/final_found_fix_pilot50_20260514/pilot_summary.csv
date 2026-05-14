@@ -1,0 +1,4 @@
+selector,num_episodes,episodes_with_step_logs,avg_sr,avg_spl,avg_steps,avg_steps_per_sec,wall_time_sec,max_gpu_mem_mib,step_rows,terminal_found_eps,raw_found_eps,parsed_coord_steps,failure_rows,not_reached_goal,path_planning_failed
+recent_k,50,49,0.18,0.022534310070694112,505.92,11.046106321306551,2397.002940416336,24081,508,23,23,485,41,40,1
+uniform_k,50,49,0.18,0.022534310070694112,505.92,10.980220946063271,2415.029551744461,24081,508,23,23,485,41,40,1
+scm,50,49,0.18,0.022534310070694112,505.92,11.31975135131787,2369.6514780521393,24081,508,23,23,485,41,40,1

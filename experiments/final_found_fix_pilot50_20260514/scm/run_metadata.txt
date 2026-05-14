@@ -1,0 +1,11 @@
+run_name=final_found_fix_pilot50_scm
+started_at=2026-05-14T10:10:59+08:00
+selector=scm
+memory_k=50
+max_episodes=50
+max_steps=600
+episodes_file=/root/autodl-tmp/episode_lists/pilot_50_val_unseen.json
+checkpoint=/root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/checkpoint-20000
+patch=qwen_utils_goat_final_found_preserve_rootfix
+finished_at=2026-05-14T10:51:57+08:00
+exit_status=0
