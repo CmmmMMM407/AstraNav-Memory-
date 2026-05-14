@@ -1,0 +1,4 @@
+interrupted_label=interrupted_recentk64
+interrupted_at=2026-05-14T18:54:48+08:00
+reason=recent_k long-process stall after 64 episodes; GPU util 0 while python held GPU/CPU memory; switching to chunked watchdog runner
+next_action=sync partial logs, stop stuck process, patch resource cleanup, run 20-episode chunks with timeout/skip policy

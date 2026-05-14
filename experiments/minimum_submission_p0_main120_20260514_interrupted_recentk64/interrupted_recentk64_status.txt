@@ -1,0 +1,24 @@
+base /root/autodl-tmp/experiments/minimum_submission_p0_main120_20260514
+sequence_pid 118587 alive True
+sequence_status
+[2026-05-14T16:00:37+08:00] START selector=recent_k
+run_metadata_tail
+benchmark=HM3D-OVON val_unseen
+memory_k=50
+max_episodes=120
+max_steps=600
+episodes_file=/root/autodl-tmp/episode_lists/minimum_main120_val_unseen_20260514.json
+val_unseen_available=120
+pipeline_note=final_found_fix + semantic fix + selected image hash logging; constrained coordinate decoding still enabled
+source_pilot=/root/autodl-tmp/experiments/final_found_fix_pilot50_20260514
+
+selector recent_k
+step_rows 676 episodes_with_steps 64 terminal_found_eps 22 raw_found_eps 22 parsed_coord_steps 654 hash_field_rows 676
+failure_rows 55 failure_reasons {'not_reached_goal': 53, 'path_planning_failed': 2}
+metrics not_ready
+
+selector uniform_k
+state not_started
+
+selector scm
+state not_started

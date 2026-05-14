@@ -1,0 +1,10 @@
+run_name=minimum_submission_p0_main120_recent_k
+started_at=2026-05-14T16:00:37+08:00
+selector=recent_k
+checkpoint=DS16-C50 checkpoint-20000
+benchmark=HM3D-OVON val_unseen
+memory_k=50
+max_episodes=120
+max_steps=600
+episodes_file=/root/autodl-tmp/episode_lists/minimum_main120_val_unseen_20260514.json
+pipeline_note=final_found_fix + semantic fix + selected image hash logging; constrained coordinate decoding still enabled

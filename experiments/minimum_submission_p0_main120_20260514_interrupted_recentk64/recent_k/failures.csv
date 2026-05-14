@@ -1,0 +1,56 @@
+episode_id,scene_id,goal,reason,step
+2265,00873-bxsVRursffK,blinds,not_reached_goal,437
+6971,00808-y9hTuugGdiq,rug,not_reached_goal,642
+132,00813-svBbv1Pavdk,picture,not_reached_goal,636
+3745,00814-p53SfW6mjZe,refrigerator,not_reached_goal,684
+2371,00820-mL8ThkuaVTM,stair,not_reached_goal,189
+474,00877-4ok3usBNeis,freezer,not_reached_goal,326
+2299,00843-DYehNKdT76V,pillow,not_reached_goal,610
+3012,00862-LT9Jq6dN3Ea,stair,not_reached_goal,601
+2690,00810-CrMo8WxCyVb,flower vase,not_reached_goal,544
+3292,00821-eF36g7L6Z9M,refrigerator,not_reached_goal,601
+4674,00802-wcojb4TFT35,dishwasher,not_reached_goal,418
+5979,00862-LT9Jq6dN3Ea,dishwasher,not_reached_goal,649
+2914,00847-bCPU9suPUw9,refrigerator,not_reached_goal,248
+2688,00813-svBbv1Pavdk,microwave,not_reached_goal,607
+435,00814-p53SfW6mjZe,carpet,not_reached_goal,706
+2150,00847-bCPU9suPUw9,stair,not_reached_goal,369
+4556,00808-y9hTuugGdiq,freezer,not_reached_goal,613
+2124,00871-VBzV5z6i1WS,plant,not_reached_goal,612
+3082,00853-5cdEh9F2hJL,flower vase,not_reached_goal,623
+1966,00891-cvZr5TUy5C5,stair,not_reached_goal,640
+4328,00814-p53SfW6mjZe,microwave,not_reached_goal,175
+1190,00815-h1zeeAwLh9Z,pillow,not_reached_goal,646
+1601,00843-DYehNKdT76V,stair,not_reached_goal,648
+6512,00853-5cdEh9F2hJL,island,not_reached_goal,636
+4434,00824-Dd4bFSTQ8gi,dishwasher,not_reached_goal,638
+311,00871-VBzV5z6i1WS,mirror,not_reached_goal,613
+1090,00861-GLAQ4DNUx5U,book,not_reached_goal,620
+2549,00831-yr17PDCnDDW,handrail,not_reached_goal,682
+5908,00873-bxsVRursffK,refrigerator,not_reached_goal,304
+4548,00876-mv2HUxq3B53,shower glass,not_reached_goal,611
+3891,00821-eF36g7L6Z9M,carpet,not_reached_goal,694
+1239,00829-QaLdnwvtxbs,hanger,not_reached_goal,687
+33,00824-Dd4bFSTQ8gi,rug,not_reached_goal,639
+1303,00821-eF36g7L6Z9M,mirror,not_reached_goal,639
+5409,00808-y9hTuugGdiq,refrigerator,not_reached_goal,626
+291,00849-a8BtkwhxdRV,mirror,not_reached_goal,365
+5457,00802-wcojb4TFT35,microwave,not_reached_goal,301
+865,00861-GLAQ4DNUx5U,flowerpot,not_reached_goal,614
+1550,00876-mv2HUxq3B53,refrigerator,path_planning_failed,553
+4375,00853-5cdEh9F2hJL,flowerpot,path_planning_failed,541
+321,00843-DYehNKdT76V,picture,not_reached_goal,600
+1054,00824-Dd4bFSTQ8gi,pillow,not_reached_goal,641
+1266,00844-q5QZSEeHe5g,pillow,not_reached_goal,654
+4520,00844-q5QZSEeHe5g,refrigerator,not_reached_goal,600
+4029,00876-mv2HUxq3B53,flower vase,not_reached_goal,603
+2512,00880-Nfvxx8J5NCo,dishwasher,not_reached_goal,661
+3195,00810-CrMo8WxCyVb,microwave,not_reached_goal,559
+209,00880-Nfvxx8J5NCo,picture,not_reached_goal,620
+2056,00800-TEEsavR23oF,coffee machine,not_reached_goal,692
+3235,00820-mL8ThkuaVTM,refrigerator,not_reached_goal,177
+3644,00824-Dd4bFSTQ8gi,refrigerator,not_reached_goal,690
+5535,00873-bxsVRursffK,refrigerator,not_reached_goal,227
+270,00839-zt1RVoi7PcG,pillow,not_reached_goal,546
+1031,00835-q3zU7Yy5E5s,pillow,not_reached_goal,480
+614,00835-q3zU7Yy5E5s,picture,not_reached_goal,445

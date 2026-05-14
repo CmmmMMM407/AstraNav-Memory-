@@ -1,0 +1,14 @@
+run_name=minimum_submission_p0_main120_20260514
+started_at=2026-05-14T16:00:37+08:00
+minimum_submission_scope=P0_main_selector_subset
+minimum_submission_note=Full document target is 6 methods x 150-200 plus budget/compression/parser. Current immediate run covers implemented P0 selectors only.
+selectors=recent_k,uniform_k,scm
+checkpoint=DS16-C50 checkpoint-20000
+benchmark=HM3D-OVON val_unseen
+memory_k=50
+max_episodes=120
+max_steps=600
+episodes_file=/root/autodl-tmp/episode_lists/minimum_main120_val_unseen_20260514.json
+val_unseen_available=120
+pipeline_note=final_found_fix + semantic fix + selected image hash logging; constrained coordinate decoding still enabled
+source_pilot=/root/autodl-tmp/experiments/final_found_fix_pilot50_20260514
