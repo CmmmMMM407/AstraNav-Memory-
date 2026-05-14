@@ -1,0 +1,10 @@
+selector,taxonomy,count,rate
+recent_k,controller_planner,1,0.024390243902439025
+recent_k,search_or_grounding_no_terminal_found,22,0.5365853658536586
+recent_k,terminal_found_false_positive_or_goal_check_mismatch,18,0.43902439024390244
+uniform_k,controller_planner,1,0.024390243902439025
+uniform_k,search_or_grounding_no_terminal_found,22,0.5365853658536586
+uniform_k,terminal_found_false_positive_or_goal_check_mismatch,18,0.43902439024390244
+scm,controller_planner,1,0.024390243902439025
+scm,search_or_grounding_no_terminal_found,22,0.5365853658536586
+scm,terminal_found_false_positive_or_goal_check_mismatch,18,0.43902439024390244

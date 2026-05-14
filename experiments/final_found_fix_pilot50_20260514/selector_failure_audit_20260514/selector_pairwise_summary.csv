@@ -1,0 +1,4 @@
+pair,common_steps,same_selected_indices,same_selected_indices_rate,same_selected_frame_types,same_selected_frame_types_rate,same_raw_model_output,same_raw_model_output_rate,same_parsed_coord,same_parsed_coord_rate,same_action_target,same_action_target_rate,same_frontier_candidates,same_frontier_candidates_rate
+recent_k__vs__uniform_k,507,454,0.8954635108481263,0,0.0,507,1.0,507,1.0,507,1.0,507,1.0
+recent_k__vs__scm,507,99,0.1952662721893491,99,0.1952662721893491,507,1.0,507,1.0,507,1.0,507,1.0
+uniform_k__vs__scm,507,99,0.1952662721893491,0,0.0,507,1.0,507,1.0,507,1.0,507,1.0

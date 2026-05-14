@@ -1,0 +1,4 @@
+selector,step_rows,episodes_with_step_logs,memory_total_min,memory_total_median,memory_total_max,steps_memory_gt_k50,selected_len_min,selected_len_median,selected_len_max,frontier_zero_steps,frontier_nonzero_steps,selected_type_counts
+recent_k,508,49,5,30.0,70,53,5,30.0,50,23,485,"{""recent"":14470}"
+uniform_k,508,49,5,30.0,70,53,5,30.0,50,23,485,"{""uniform"":14470}"
+scm,508,49,5,30.0,70,53,5,14.0,36,23,485,"{""recent"":4830,""spatial"":1864,""spin"":502,""turning"":2091}"
