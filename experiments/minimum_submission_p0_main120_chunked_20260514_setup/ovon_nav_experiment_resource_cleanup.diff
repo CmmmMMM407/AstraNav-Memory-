@@ -1,0 +1,33 @@
+--- /Users/cm/ovon_nav_experiment.hash_audit.py	2026-05-14 13:16:13
++++ /Users/cm/ovon_nav_experiment.cleanup_chunk.py	2026-05-14 19:43:16
+@@ -1,5 +1,5 @@
+ from collections import defaultdict
+-import os, json, cv2, random, time, argparse, re, subprocess, hashlib
++import os, json, cv2, random, time, argparse, re, subprocess, hashlib, gc
+ import numpy as np
+ import habitat_sim
+ from habitat.utils.visualizations import maps
+@@ -373,6 +373,23 @@
+ 
+         print(f"[{epi_i+1}/{len(episode_list_to_process)}] sr={sr} spl={spl:.3f} steps={total_steps} t={ep_time:.1f}s mem={gpu_used}MiB")
+ 
++        # Release Habitat/renderer resources between episodes; long runs otherwise
++        # accumulate CPU/GPU memory and can stall under the container memory cgroup.
++        try:
++            sim.close()
++        except Exception:
++            pass
++        try:
++            del sim, agent, path_finder, top_down_map, fog_of_war_mask
++            del global_color_list, global_frontier_list, global_state_list
++            del goto_color_list, goto_agent_state_list, bank
++            del color_list, agent_state_list
++        except Exception:
++            pass
++        gc.collect()
++        if torch.cuda.is_available():
++            torch.cuda.empty_cache()
++
+     # summary metrics
+     avg_sr = float(np.mean([r['sr'] for r in results])) if results else 0.0
+     avg_spl = float(np.mean([r['spl'] for r in results])) if results else 0.0
