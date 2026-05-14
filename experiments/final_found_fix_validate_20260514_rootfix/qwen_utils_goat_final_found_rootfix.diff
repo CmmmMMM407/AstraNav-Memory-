@@ -1,0 +1,25 @@
+--- /root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/qwen_utils_goat.py.bak_final_found_20260514_083636	2026-05-14 08:36:39.298669873 +0800
++++ /root/autodl-tmp/AstraNav-Memory/inference_code/hm3d-online/qwen_utils_goat.py	2026-05-14 08:36:50.802941962 +0800
+@@ -52,7 +52,7 @@
+     pattern = re.compile(r"<coordinate>\s*(\[.*?\])\s*</coordinate>")
+     
+     match = pattern.search(response_text)
+-    is_found = "found" in response_text
++    is_found = "found" in response_text.lower()
+     
+     if match:
+         coord_str = match.group(1)
+@@ -373,6 +373,8 @@
+     log_message(f"raw_output_with_special={raw_output_with_special}")
+     print(output_texts)
+     if parsed_local_target is None:
++        if is_final_decision:
++            return None, True, output_texts
+         # Fallback: choose the first available frontier when parser returns empty/non-parseable output
+         if current_frontiers:
+             return current_frontiers[0], False, output_texts
+@@ -492,4 +494,3 @@
+ 
+     def __len__(self):
+         return len(self.images)
+-
