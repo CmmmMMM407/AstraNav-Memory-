@@ -1,0 +1,53 @@
+--- /Users/cm/ovon_nav_experiment.remote_work.py	2026-05-14 08:33:05
++++ /Users/cm/ovon_nav_experiment.hash_audit.py	2026-05-14 13:16:13
+@@ -1,5 +1,5 @@
+ from collections import defaultdict
+-import os, json, cv2, random, time, argparse, re, subprocess
++import os, json, cv2, random, time, argparse, re, subprocess, hashlib
+ import numpy as np
+ import habitat_sim
+ from habitat.utils.visualizations import maps
+@@ -24,6 +24,23 @@
+     return p.parse_args()
+ 
+ 
++def _image_hash(image):
++    arr = np.asarray(image)
++    return hashlib.sha1(arr.tobytes()).hexdigest()[:16]
++
++
++def _pose_hash(state):
++    pos = [float(state.position[0]), float(state.position[1]), float(state.position[2])]
++    rot = [float(state.rotation.x), float(state.rotation.y), float(state.rotation.z), float(state.rotation.w)]
++    payload = json.dumps({'pos': pos, 'rot': rot}, sort_keys=True)
++    return hashlib.sha1(payload.encode('utf-8')).hexdigest()[:16]
++
++
++def _selection_fingerprint(indices, image_hashes, pose_hashes):
++    payload = json.dumps({'indices': indices, 'image_hashes': image_hashes, 'pose_hashes': pose_hashes}, sort_keys=True)
++    return hashlib.sha1(payload.encode('utf-8')).hexdigest()[:16]
++
++
+ def _yaw_from_state(state):
+     q = state.rotation
+     # yaw around y-axis in habitat-ish frame; robust enough for turning delta
+@@ -241,6 +258,9 @@
+ 
+             raw_text = output_texts[0] if output_texts else ''
+             parsed_found, parsed_coord = parse_model_output(raw_text)
++            selected_image_hashes = [_image_hash(img) for img in sel_images]
++            selected_pose_hashes = [_pose_hash(st) for st in sel_states]
++            selection_fingerprint = _selection_fingerprint(sel_idx, selected_image_hashes, selected_pose_hashes)
+ 
+             step_item = {
+                 'episode_id': cur_episode['episode_id'],
+@@ -251,6 +271,9 @@
+                 'memory_total': len(spin_images),
+                 'selected_indices': sel_idx,
+                 'selected_frame_types': sel_types,
++                'selected_image_hashes': selected_image_hashes,
++                'selected_pose_hashes': selected_pose_hashes,
++                'selection_fingerprint': selection_fingerprint,
+                 'pose': {'x': float(agent_state.position[0]), 'z': float(agent_state.position[2]), 'yaw': _yaw_from_state(agent_state)},
+                 'frontier_candidates': [list(map(float, w)) for w in frontier_waypoints],
+                 'raw_model_output': raw_text,
