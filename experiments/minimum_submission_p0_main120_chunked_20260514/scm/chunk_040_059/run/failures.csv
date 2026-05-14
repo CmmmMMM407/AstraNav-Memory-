@@ -1,0 +1,16 @@
+episode_id,scene_id,goal,reason,step
+5457,00802-wcojb4TFT35,microwave,not_reached_goal,301
+865,00861-GLAQ4DNUx5U,flowerpot,not_reached_goal,614
+1550,00876-mv2HUxq3B53,refrigerator,path_planning_failed,553
+4375,00853-5cdEh9F2hJL,flowerpot,path_planning_failed,541
+321,00843-DYehNKdT76V,picture,not_reached_goal,600
+1054,00824-Dd4bFSTQ8gi,pillow,not_reached_goal,641
+1266,00844-q5QZSEeHe5g,pillow,not_reached_goal,654
+4520,00844-q5QZSEeHe5g,refrigerator,not_reached_goal,600
+4029,00876-mv2HUxq3B53,flower vase,not_reached_goal,603
+2512,00880-Nfvxx8J5NCo,dishwasher,not_reached_goal,661
+3195,00810-CrMo8WxCyVb,microwave,not_reached_goal,559
+209,00880-Nfvxx8J5NCo,picture,not_reached_goal,620
+2056,00800-TEEsavR23oF,coffee machine,not_reached_goal,692
+3235,00820-mL8ThkuaVTM,refrigerator,not_reached_goal,177
+3644,00824-Dd4bFSTQ8gi,refrigerator,not_reached_goal,690

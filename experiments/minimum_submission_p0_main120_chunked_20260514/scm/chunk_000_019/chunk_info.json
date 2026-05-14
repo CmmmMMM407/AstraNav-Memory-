@@ -1,0 +1,9 @@
+{
+  "chunk_id": "000_019",
+  "selector": "scm",
+  "start": 0,
+  "end_exclusive": 20,
+  "num_source": 20,
+  "num_filtered": 20,
+  "skips_at_start": []
+}

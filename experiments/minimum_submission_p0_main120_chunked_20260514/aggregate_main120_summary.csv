@@ -1,0 +1,4 @@
+selector,chunks,episodes,success_count,failure_count,sr,spl,avg_steps,total_steps,steps_per_sec_weighted,wall_time_sec_sum,max_gpu_mem_mib,step_rows,episodes_with_steps,raw_nonempty_steps,parsed_coord_steps,terminal_found_steps,final_decision_steps,invalid_coord_steps,memory_total_gt_k_steps,timed_out_units,nonzero_units,failure_reasons
+recent_k,6,120,18,102,0.15,0.018036334699843257,528.6333333333333,63436,14.121154116026503,4584.725942134857,14206,1251,118,1251,1207,44,44,44,138,0,0,"{""not_reached_goal"": 99, ""path_planning_failed"": 3}"
+uniform_k,6,120,18,102,0.15,0.018036334699843257,528.6333333333333,63436,14.118522036641753,4583.185664176941,14206,1251,118,1251,1207,44,44,44,138,0,0,"{""not_reached_goal"": 99, ""path_planning_failed"": 3}"
+scm,6,120,18,102,0.15,0.018036334699843257,528.6333333333333,63436,15.110355856227786,4291.047923564911,13454,1251,118,1251,1207,44,44,44,138,0,0,"{""not_reached_goal"": 99, ""path_planning_failed"": 3}"

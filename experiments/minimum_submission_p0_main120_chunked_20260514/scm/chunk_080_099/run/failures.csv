@@ -1,0 +1,18 @@
+episode_id,scene_id,goal,reason,step
+3448,00827-BAbdmeyTvMZ,dishwasher,path_planning_failed,405
+2804,00861-GLAQ4DNUx5U,picture,not_reached_goal,657
+126,00823-7MXmsvcQjpJ,picture,not_reached_goal,333
+4089,00839-zt1RVoi7PcG,stair,not_reached_goal,613
+1237,00869-MHPLjHsuG27,dishwasher,not_reached_goal,276
+4553,00877-4ok3usBNeis,stair,not_reached_goal,329
+4743,00814-p53SfW6mjZe,book,not_reached_goal,624
+2188,00813-svBbv1Pavdk,flower vase,not_reached_goal,635
+4467,00808-y9hTuugGdiq,statue,not_reached_goal,621
+225,00831-yr17PDCnDDW,plant,not_reached_goal,663
+231,00880-Nfvxx8J5NCo,picture,not_reached_goal,617
+3983,00823-7MXmsvcQjpJ,guitar,not_reached_goal,353
+2125,00800-TEEsavR23oF,coffee machine,not_reached_goal,702
+6989,00844-q5QZSEeHe5g,exercise bike,not_reached_goal,263
+666,00802-wcojb4TFT35,picture,not_reached_goal,209
+2750,00800-TEEsavR23oF,microwave,not_reached_goal,633
+3078,00873-bxsVRursffK,pillow,not_reached_goal,391

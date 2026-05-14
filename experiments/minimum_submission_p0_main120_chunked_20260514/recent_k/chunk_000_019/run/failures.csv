@@ -1,0 +1,19 @@
+episode_id,scene_id,goal,reason,step
+2265,00873-bxsVRursffK,blinds,not_reached_goal,437
+6971,00808-y9hTuugGdiq,rug,not_reached_goal,642
+132,00813-svBbv1Pavdk,picture,not_reached_goal,636
+3745,00814-p53SfW6mjZe,refrigerator,not_reached_goal,684
+2371,00820-mL8ThkuaVTM,stair,not_reached_goal,189
+474,00877-4ok3usBNeis,freezer,not_reached_goal,326
+2299,00843-DYehNKdT76V,pillow,not_reached_goal,610
+3012,00862-LT9Jq6dN3Ea,stair,not_reached_goal,601
+2690,00810-CrMo8WxCyVb,flower vase,not_reached_goal,544
+3292,00821-eF36g7L6Z9M,refrigerator,not_reached_goal,601
+4674,00802-wcojb4TFT35,dishwasher,not_reached_goal,418
+5979,00862-LT9Jq6dN3Ea,dishwasher,not_reached_goal,649
+2914,00847-bCPU9suPUw9,refrigerator,not_reached_goal,248
+2688,00813-svBbv1Pavdk,microwave,not_reached_goal,607
+435,00814-p53SfW6mjZe,carpet,not_reached_goal,706
+2150,00847-bCPU9suPUw9,stair,not_reached_goal,369
+4556,00808-y9hTuugGdiq,freezer,not_reached_goal,613
+2124,00871-VBzV5z6i1WS,plant,not_reached_goal,612

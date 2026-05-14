@@ -1,0 +1,9 @@
+{
+  "chunk_id": "060_079",
+  "selector": "uniform_k",
+  "start": 60,
+  "end_exclusive": 80,
+  "num_source": 20,
+  "num_filtered": 20,
+  "skips_at_start": []
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "scan_id": "00873-bxsVRursffK",
+    "scan_id_suffix": "bxsVRursffK",
+    "episode_index": 93,
+    "object_category": "refrigerator"
+  },
+  {
+    "scan_id": "00839-zt1RVoi7PcG",
+    "scan_id_suffix": "zt1RVoi7PcG",
+    "episode_index": 7,
+    "object_category": "pillow"
+  },
+  {
+    "scan_id": "00835-q3zU7Yy5E5s",
+    "scan_id_suffix": "q3zU7Yy5E5s",
+    "episode_index": 20,
+    "object_category": "pillow"
+  },
+  {
+    "scan_id": "00835-q3zU7Yy5E5s",
+    "scan_id_suffix": "q3zU7Yy5E5s",
+    "episode_index": 15,
+    "object_category": "picture"
+  },
+  {
+    "scan_id": "00862-LT9Jq6dN3Ea",
+    "scan_id_suffix": "LT9Jq6dN3Ea",
+    "episode_index": 79,
+    "object_category": "refrigerator"
+  },
+  {
+    "scan_id": "00821-eF36g7L6Z9M",
+    "scan_id_suffix": "eF36g7L6Z9M",
+    "episode_index": 33,
+    "object_category": "pillow"
+  },
+  {
+    "scan_id": "00814-p53SfW6mjZe",
+    "scan_id_suffix": "p53SfW6mjZe",
+    "episode_index": 97,
+    "object_category": "bedframe"
+  },
+  {
+    "scan_id": "00853-5cdEh9F2hJL",
+    "scan_id_suffix": "5cdEh9F2hJL",
+    "episode_index": 103,
+    "object_category": "plant"
+  },
+  {
+    "scan_id": "00843-DYehNKdT76V",
+    "scan_id_suffix": "DYehNKdT76V",
+    "episode_index": 9,
+    "object_category": "mirror"
+  },
+  {
+    "scan_id": "00891-cvZr5TUy5C5",
+    "scan_id_suffix": "cvZr5TUy5C5",
+    "episode_index": 49,
+    "object_category": "refrigerator"
+  },
+  {
+    "scan_id": "00844-q5QZSEeHe5g",
+    "scan_id_suffix": "q5QZSEeHe5g",
+    "episode_index": 67,
+    "object_category": "rug"
+  },
+  {
+    "scan_id": "00848-ziup5kvtCCR",
+    "scan_id_suffix": "ziup5kvtCCR",
+    "episode_index": 5,
+    "object_category": "mirror"
+  },
+  {
+    "scan_id": "00829-QaLdnwvtxbs",
+    "scan_id_suffix": "QaLdnwvtxbs",
+    "episode_index": 30,
+    "object_category": "picture"
+  },
+  {
+    "scan_id": "00880-Nfvxx8J5NCo",
+    "scan_id_suffix": "Nfvxx8J5NCo",
+    "episode_index": 43,
+    "object_category": "dishwasher"
+  },
+  {
+    "scan_id": "00876-mv2HUxq3B53",
+    "scan_id_suffix": "mv2HUxq3B53",
+    "episode_index": 18,
+    "object_category": "microwave"
+  },
+  {
+    "scan_id": "00823-7MXmsvcQjpJ",
+    "scan_id_suffix": "7MXmsvcQjpJ",
+    "episode_index": 23,
+    "object_category": "book"
+  },
+  {
+    "scan_id": "00890-6s7QHgap2fW",
+    "scan_id_suffix": "6s7QHgap2fW",
+    "episode_index": 14,
+    "object_category": "plant"
+  },
+  {
+    "scan_id": "00813-svBbv1Pavdk",
+    "scan_id_suffix": "svBbv1Pavdk",
+    "episode_index": 36,
+    "object_category": "flower vase"
+  },
+  {
+    "scan_id": "00877-4ok3usBNeis",
+    "scan_id_suffix": "4ok3usBNeis",
+    "episode_index": 95,
+    "object_category": "dishwasher"
+  },
+  {
+    "scan_id": "00824-Dd4bFSTQ8gi",
+    "scan_id_suffix": "Dd4bFSTQ8gi",
+    "episode_index": 12,
+    "object_category": "flower vase"
+  }
+]

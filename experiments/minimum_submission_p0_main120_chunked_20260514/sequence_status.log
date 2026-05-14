@@ -1,0 +1,38 @@
+[2026-05-14T19:49:03+08:00] RUN_START
+[2026-05-14T19:49:03+08:00] CHUNK_START selector=recent_k chunk=000_019 num_episodes=20
+[2026-05-14T20:02:38+08:00] CHUNK_END selector=recent_k chunk=000_019 status=0 timed_out=False
+[2026-05-14T20:02:38+08:00] CHUNK_START selector=uniform_k chunk=000_019 num_episodes=20
+[2026-05-14T20:16:04+08:00] CHUNK_END selector=uniform_k chunk=000_019 status=0 timed_out=False
+[2026-05-14T20:16:04+08:00] CHUNK_START selector=scm chunk=000_019 num_episodes=20
+[2026-05-14T20:28:40+08:00] CHUNK_END selector=scm chunk=000_019 status=0 timed_out=False
+[2026-05-14T20:28:40+08:00] CHUNK_START selector=recent_k chunk=020_039 num_episodes=20
+[2026-05-14T20:41:51+08:00] CHUNK_END selector=recent_k chunk=020_039 status=0 timed_out=False
+[2026-05-14T20:41:51+08:00] CHUNK_START selector=uniform_k chunk=020_039 num_episodes=20
+[2026-05-14T20:55:00+08:00] CHUNK_END selector=uniform_k chunk=020_039 status=0 timed_out=False
+[2026-05-14T20:55:00+08:00] CHUNK_START selector=scm chunk=020_039 num_episodes=20
+[2026-05-14T21:07:17+08:00] CHUNK_END selector=scm chunk=020_039 status=0 timed_out=False
+[2026-05-14T21:07:17+08:00] CHUNK_START selector=recent_k chunk=040_059 num_episodes=20
+[2026-05-14T21:20:17+08:00] CHUNK_END selector=recent_k chunk=040_059 status=0 timed_out=False
+[2026-05-14T21:20:17+08:00] CHUNK_START selector=uniform_k chunk=040_059 num_episodes=20
+[2026-05-14T21:33:22+08:00] CHUNK_END selector=uniform_k chunk=040_059 status=0 timed_out=False
+[2026-05-14T21:33:22+08:00] CHUNK_START selector=scm chunk=040_059 num_episodes=20
+[2026-05-14T21:45:39+08:00] CHUNK_END selector=scm chunk=040_059 status=0 timed_out=False
+[2026-05-14T21:45:39+08:00] CHUNK_START selector=recent_k chunk=060_079 num_episodes=20
+[2026-05-14T21:58:05+08:00] CHUNK_END selector=recent_k chunk=060_079 status=0 timed_out=False
+[2026-05-14T21:58:05+08:00] CHUNK_START selector=uniform_k chunk=060_079 num_episodes=20
+[2026-05-14T22:10:30+08:00] CHUNK_END selector=uniform_k chunk=060_079 status=0 timed_out=False
+[2026-05-14T22:10:30+08:00] CHUNK_START selector=scm chunk=060_079 num_episodes=20
+[2026-05-14T22:22:07+08:00] CHUNK_END selector=scm chunk=060_079 status=0 timed_out=False
+[2026-05-14T22:22:07+08:00] CHUNK_START selector=recent_k chunk=080_099 num_episodes=20
+[2026-05-14T22:34:47+08:00] CHUNK_END selector=recent_k chunk=080_099 status=0 timed_out=False
+[2026-05-14T22:34:47+08:00] CHUNK_START selector=uniform_k chunk=080_099 num_episodes=20
+[2026-05-14T22:47:33+08:00] CHUNK_END selector=uniform_k chunk=080_099 status=0 timed_out=False
+[2026-05-14T22:47:33+08:00] CHUNK_START selector=scm chunk=080_099 num_episodes=20
+[2026-05-14T22:59:34+08:00] CHUNK_END selector=scm chunk=080_099 status=0 timed_out=False
+[2026-05-14T22:59:34+08:00] CHUNK_START selector=recent_k chunk=100_119 num_episodes=20
+[2026-05-14T23:12:00+08:00] CHUNK_END selector=recent_k chunk=100_119 status=0 timed_out=False
+[2026-05-14T23:12:00+08:00] CHUNK_START selector=uniform_k chunk=100_119 num_episodes=20
+[2026-05-14T23:24:26+08:00] CHUNK_END selector=uniform_k chunk=100_119 status=0 timed_out=False
+[2026-05-14T23:24:26+08:00] CHUNK_START selector=scm chunk=100_119 num_episodes=20
+[2026-05-14T23:36:04+08:00] CHUNK_END selector=scm chunk=100_119 status=0 timed_out=False
+[2026-05-14T23:36:04+08:00] RUN_END exit_status=0

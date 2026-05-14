@@ -1,0 +1,24 @@
+{
+  "cmd": [
+    "/root/miniconda3/envs/astra_nav/bin/python",
+    "ovon_nav_experiment.py",
+    "--selector",
+    "scm",
+    "--memory-k",
+    "50",
+    "--episodes-file",
+    "/root/autodl-tmp/experiments/minimum_submission_p0_main120_chunked_20260514/scm/chunk_080_099/episodes_filtered.json",
+    "--max-episodes",
+    "999999",
+    "--max-steps",
+    "600",
+    "--experiment-dir",
+    "/root/autodl-tmp/experiments/minimum_submission_p0_main120_chunked_20260514/scm/chunk_080_099/run",
+    "--checkpoint",
+    "./checkpoint-20000",
+    "--name",
+    "minimum_p0_chunked_scm_080_099"
+  ],
+  "timeout_sec": 3600,
+  "started_at": "2026-05-14T22:47:33+08:00"
+}

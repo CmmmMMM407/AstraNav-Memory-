@@ -1,0 +1,15 @@
+run_name=minimum_submission_p0_main120_chunked_20260514
+started_at=2026-05-14T19:49:03+08:00
+source_interrupted=/root/autodl-tmp/experiments/minimum_submission_p0_main120_20260514
+source_episodes=/root/autodl-tmp/episode_lists/minimum_main120_val_unseen_20260514.json
+total_source_episodes=120
+selectors=recent_k,uniform_k,scm
+chunk_size=20
+chunk_timeout_sec=3600
+episode_timeout_sec=1200
+memory_k=50
+max_steps=600
+resource_cleanup=sim.close + del large objects + gc.collect + torch.cuda.empty_cache per completed episode
+skip_policy=global skip after single-episode timeout; skipped episode excluded for all later selector/chunk runs
+finished_at=2026-05-14T23:36:04+08:00
+exit_status=0
